@@ -19,6 +19,14 @@
 		B93678331952B78800685756 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B936781B1952B78800685756 /* UIKit.framework */; };
 		B936783B1952B78800685756 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B93678391952B78800685756 /* InfoPlist.strings */; };
 		B936783D1952B78800685756 /* SimpleTableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B936783C1952B78800685756 /* SimpleTableDemoTests.m */; };
+		B955C67C19540BEE00540DB3 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B955C67A19540BEE00540DB3 /* SimpleTableCell.m */; };
+		B955C67D19540BEE00540DB3 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B955C67B19540BEE00540DB3 /* SimpleTableCell.xib */; };
+		B996BCEF1953DBF0005AD05F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B996BCED1953DBF0005AD05F /* MasterViewController.m */; };
+		B996BCF01953DBF0005AD05F /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B996BCEE1953DBF0005AD05F /* MasterViewController.xib */; };
+		B9D847081953E057000BA357 /* head.gif in Resources */ = {isa = PBXBuildFile; fileRef = B9D847041953E057000BA357 /* head.gif */; };
+		B9D847091953E057000BA357 /* head2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9D847051953E057000BA357 /* head2.jpg */; };
+		B9D8470A1953E057000BA357 /* head3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9D847061953E057000BA357 /* head3.jpg */; };
+		B9D8470B1953E057000BA357 /* head4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9D847071953E057000BA357 /* head4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,16 @@
 		B93678381952B78800685756 /* SimpleTableDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTableDemoTests-Info.plist"; sourceTree = "<group>"; };
 		B936783A1952B78800685756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B936783C1952B78800685756 /* SimpleTableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableDemoTests.m; sourceTree = "<group>"; };
+		B955C67919540BEE00540DB3 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		B955C67A19540BEE00540DB3 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+		B955C67B19540BEE00540DB3 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
+		B996BCEC1953DBF0005AD05F /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B996BCED1953DBF0005AD05F /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B996BCEE1953DBF0005AD05F /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		B9D847041953E057000BA357 /* head.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = head.gif; sourceTree = "<group>"; };
+		B9D847051953E057000BA357 /* head2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head2.jpg; sourceTree = "<group>"; };
+		B9D847061953E057000BA357 /* head3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head3.jpg; sourceTree = "<group>"; };
+		B9D847071953E057000BA357 /* head4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +125,18 @@
 		B936781D1952B78800685756 /* SimpleTableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B955C67E19540E7200540DB3 /* ItemData */,
+				B955C67919540BEE00540DB3 /* SimpleTableCell.h */,
+				B955C67A19540BEE00540DB3 /* SimpleTableCell.m */,
+				B955C67B19540BEE00540DB3 /* SimpleTableCell.xib */,
+				B9D847031953E030000BA357 /* ImageData */,
 				B93678261952B78800685756 /* AppDelegate.h */,
 				B93678271952B78800685756 /* AppDelegate.m */,
 				B93678291952B78800685756 /* Images.xcassets */,
 				B936781E1952B78800685756 /* Supporting Files */,
+				B996BCEC1953DBF0005AD05F /* MasterViewController.h */,
+				B996BCED1953DBF0005AD05F /* MasterViewController.m */,
+				B996BCEE1953DBF0005AD05F /* MasterViewController.xib */,
 			);
 			path = SimpleTableDemo;
 			sourceTree = "<group>";
@@ -142,6 +168,24 @@
 				B93678391952B78800685756 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B955C67E19540E7200540DB3 /* ItemData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ItemData;
+			sourceTree = "<group>";
+		};
+		B9D847031953E030000BA357 /* ImageData */ = {
+			isa = PBXGroup;
+			children = (
+				B9D847041953E057000BA357 /* head.gif */,
+				B9D847051953E057000BA357 /* head2.jpg */,
+				B9D847061953E057000BA357 /* head3.jpg */,
+				B9D847071953E057000BA357 /* head4.jpg */,
+			);
+			name = ImageData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +263,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D8470B1953E057000BA357 /* head4.jpg in Resources */,
 				B93678221952B78800685756 /* InfoPlist.strings in Resources */,
+				B9D8470A1953E057000BA357 /* head3.jpg in Resources */,
 				B936782A1952B78800685756 /* Images.xcassets in Resources */,
+				B9D847081953E057000BA357 /* head.gif in Resources */,
+				B996BCF01953DBF0005AD05F /* MasterViewController.xib in Resources */,
+				B955C67D19540BEE00540DB3 /* SimpleTableCell.xib in Resources */,
+				B9D847091953E057000BA357 /* head2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +291,8 @@
 			files = (
 				B93678281952B78800685756 /* AppDelegate.m in Sources */,
 				B93678241952B78800685756 /* main.m in Sources */,
+				B955C67C19540BEE00540DB3 /* SimpleTableCell.m in Sources */,
+				B996BCEF1953DBF0005AD05F /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +489,7 @@
 				B93678421952B78800685756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B93678431952B78800685756 /* Build configuration list for PBXNativeTarget "SimpleTableDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +498,7 @@
 				B93678451952B78800685756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
