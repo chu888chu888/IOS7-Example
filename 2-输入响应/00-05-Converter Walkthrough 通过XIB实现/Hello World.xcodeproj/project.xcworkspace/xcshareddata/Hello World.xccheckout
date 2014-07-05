@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>71C6D9F2-2C45-43A4-AA7A-FFAF8212B0F1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hello World</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AD525C2A-DD7E-48FE-91D4-E7DB242B6392</key>
+		<string>https://github.com/chu888chu888/IOS7Example.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>2-输入响应/00-05-Converter Walkthrough 通过XIB实现/Hello World.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AD525C2A-DD7E-48FE-91D4-E7DB242B6392</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chu888chu888/IOS7Example.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AD525C2A-DD7E-48FE-91D4-E7DB242B6392</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AD525C2A-DD7E-48FE-91D4-E7DB242B6392</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS7Example</string>
+		</dict>
+	</array>
+</dict>
+</plist>
