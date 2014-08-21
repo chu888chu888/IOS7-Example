@@ -14,6 +14,41 @@
 
 @implementation ContentViewCustomerTableViewController
 @synthesize sections,dataSource;
+//创建包含UIImageView实例的单元
+-(UIImageView*)imageViewForCell:(const UITableViewCell*)cell withFileName:(NSString *)fileName
+{
+    UIImage *image=[UIImage imageNamed:fileName];
+    UIImageView *theImageView=[[UIImageView alloc]initWithImage:image];
+    CGPoint newCenter=cell.contentView.center;
+    newCenter.x+=80;
+    theImageView.center=newCenter;
+    theImageView.autoresizingMask=UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleTopMargin;
+    return theImageView;
+    
+}
+//创建包含UISwitch实例的单元
+-(UISwitch *)switchForCell:(const UITableViewCell *)cell
+{
+    UISwitch *theSwitch=[[UISwitch alloc] init];
+    theSwitch.on=YES;
+    CGPoint newCenter=cell.contentView.center;
+    newCenter.x+=80;
+    theSwitch.center=newCenter;
+    theSwitch.autoresizingMask=UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleTopMargin;
+    return theSwitch;
+    
+}
+//创建包含UISlider实例的单元
+-(UISlider*)sliderForCell:(const UITableViewCell*)cell
+{
+    UISlider *theSlider=[[UISlider alloc] init];
+    theSlider.value=theSlider.maximumValue/2;
+    theSlider.frame=CGRectMake(0,0,cell.bounds.size.width/2,cell.bounds.size.height);
+    CGPoint newCenter=cell.contentView.center;
+    newCenter.x+=50;
+    theSlider.autoresizingMask=UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleTopMargin;
+    return theSlider;
+}
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:UITableViewStyleGrouped];
@@ -34,10 +69,13 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     //创建显示用数据数组
+    //sections=[[NSArray alloc] initWithObjects:@"姓名",@"必杀技",@"强弱", nil];
     sections=[[NSArray alloc] initWithObjects:@"姓名",@"必杀技",@"强弱", nil];
     NSArray *rows1=[NSArray arrayWithObjects:@"李小龙", nil];
     NSArray *rows2=[NSArray arrayWithObjects:@"截拳道", nil];
-    
+    NSArray *rows3=[NSArray arrayWithObjects:@"攻击力",@"防御力",nil];
+    //dataSource=[[NSArray alloc] initWithObjects:rows1,rows2,rows3, nil];
+    dataSource=[[NSArray alloc] initWithObjects:rows1,rows2,rows3, nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,28 +88,42 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return [sections count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [[dataSource objectAtIndex:section] count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    static NSString *identifier=@"basic-cell";
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:identifier];
+    if (cell==nil) {
+        cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+    }
+    cell.textLabel.text=[[dataSource objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+    switch (indexPath.section) {
+        case 0:
+            [cell.contentView addSubview:[self imageViewForCell:cell withFileName:@"bubble.png"]];
+            break;
+        case 1:
+            [cell.contentView addSubview:[self switchForCell:cell]];
+            break;
+        case 2:
+            [cell.contentView addSubview:[self sliderForCell:cell]];
+            break;
+        default:
+            break;
+    }
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

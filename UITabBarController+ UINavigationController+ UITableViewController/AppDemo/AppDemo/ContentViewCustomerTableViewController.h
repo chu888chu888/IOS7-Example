@@ -11,4 +11,6 @@
 @interface ContentViewCustomerTableViewController : UITableViewController
 @property(nonatomic,retain) NSArray *sections;
 @property(nonatomic,retain) NSArray *dataSource;
+-(UIImageView*)imageViewForCell:(const UITableViewCell*)cell withFileName:(NSString *)fileName;
+-(UISwitch *)switchForCell:(const UITableViewCell *)cell;
 @end
