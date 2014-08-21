@@ -1,39 +1,28 @@
 //
-//  OperationTableViewController.m
+//  CustomerTableViewController.m
 //  AppDemo
 //
 //  Created by chuguangming on 14-8-18.
 //  Copyright (c) 2014年 chu. All rights reserved.
 //
 
-#import "OperationTableViewController.h"
-
-@interface OperationTableViewController ()
+#import "CustomerTableViewController.h"
+#import "ModelDialog.h"
+@interface CustomerTableViewController ()
 
 @end
 
-@implementation OperationTableViewController
-
-@synthesize dataSource;
--(void)doEdit
-{
-    [self.tableView setEditing: !self.tableView.isEditing];
-
-}
+@implementation CustomerTableViewController
+@synthesize dataSource,images;
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
-        UIImage *icon=[UIImage imageNamed:@"free-badge-32.png"];
-        self.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"删除" image:icon tag:0];
-        
+       
         //导航条中的prompt
-        self.navigationItem.prompt=@"向左边滑动每一条信息";
-        self.navigationItem.title=@"删除\添加\移动 标题演示";
-        //在右侧添加按钮
-        UIBarButtonItem *rightItem=[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(doEdit)];
-        self.navigationItem.rightBarButtonItem=rightItem;
+        self.navigationItem.prompt=@"";
+        self.navigationItem.title=@"自定义样式表格";
+
     }
     return self;
 }
@@ -48,13 +37,21 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     dataSource=[[NSMutableArray alloc] initWithObjects:
-                @"item1",@"item2",@"item3",@"追加数据",nil];
+                @"banknote",@"bubble",@"bulb",@"clip",nil];
+    images=[[NSMutableArray alloc] initWithCapacity:4];
+    for (NSString *name in dataSource) {
+        NSString *imageName=[NSString stringWithFormat:@"%@.png",name];
+        UIImage *image=[UIImage imageNamed:imageName];
+        [images addObject:image];
+    }
+    
+    //自定义表格样式
+    //self.tableView.backgroundColor=[UIColor blackColor];
+    self.tableView.rowHeight=64;
+    //self.tableView.separatorColor=[UIColor redColor];
+    //self.tableView.separatorStyle=UITableViewCellSeparatorStyleSingleLine;
 }
--(void)viewDidAppear:(BOOL)animated
-{
-    //[super viewDidAppear:animated];
-    //[self.tableView setEditing:YES];
-}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -79,11 +76,23 @@
     static NSString *identifier=@"basic-cell";
     UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:identifier];
     if (nil==cell) {
-        cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+        //如果想加入详情,initWithStyle:UITableViewCellStyleSubtitle非常重要
+        cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
     }
+    //自定义每一个cell的样式
     cell.textLabel.text=[dataSource objectAtIndex:indexPath.row];
+    //cell.textLabel.backgroundColor=[UIColor blackColor];
+    //cell.textLabel.textColor=[UIColor redColor];
+    cell.textLabel.textAlignment=UITextAlignmentCenter;
+    //cell.textLabel.font=[UIFont systemFontOfSize:32];
+    cell.imageView.image=[images objectAtIndex:indexPath.row];
+    
+    cell.accessoryType=UITableViewCellAccessoryDetailDisclosureButton;
+    //详细标签
+    cell.detailTextLabel.text=@"详细标签";
     return cell;
 }
+//点击单元格触发事件
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *message=[dataSource objectAtIndex:indexPath.row];
@@ -93,34 +102,19 @@
     [alert show];
     
 }
+-(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
+{
+    ModelDialog *md=[[ModelDialog alloc]init];
+    [self.navigationController pushViewController:md animated:YES];
+}
 //单元的追加与删除
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
-    
-    /*
     if (UITableViewCellEditingStyleDelete==editingStyle) {
         //从datasource删除实际数据
         [dataSource removeObjectAtIndex:indexPath.row];
         //删除表格中的单元
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationLeft];
-    }
-     */
-    switch (editingStyle) {
-        case UITableViewCellEditingStyleDelete:
-            //从datasource删除实际数据
-            [dataSource removeObjectAtIndex:indexPath.row];
-            //删除表格中的单元
-            [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationLeft];
-            break;
-        case UITableViewCellEditingStyleInsert:
-            //从dataSource中追加一个数据
-            [dataSource insertObject:@"New Item" atIndex:dataSource.count-1];
-            //在表格中追加单元
-            [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationBottom];
-            break;
-        default:
-            break;
     }
 }
 //删除按钮名称的变更
@@ -128,50 +122,7 @@
 {
     return @"垃圾箱";
 }
-//在编辑模式的情况下,将最后的Row变成插入模式
--(UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (tableView.editing && dataSource.count<=indexPath.row+1) {
-        return UITableViewCellEditingStyleInsert;
-    }
-    else
-    {
-        return UITableViewCellEditingStyleDelete;
-    }
-}
- // 实现移动表格
- - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
- {
-     NSUInteger fromRow=fromIndexPath.row;
-     NSUInteger toRow=toIndexPath.row;
-     while (fromRow<toRow) {
-         [dataSource exchangeObjectAtIndex:fromRow withObjectAtIndex:fromRow+1];
-         fromRow++;
-     }
-     while (fromRow>toRow) {
-         [dataSource exchangeObjectAtIndex:fromRow withObjectAtIndex:fromRow-1];
-         fromRow--;
-     }
- }
 
- // Override to support conditional rearranging of the table view.
- - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
- {
-    // Return NO if you do not want the item to be re-orderable.
-    //最后单元之外的情况下为YES
-     return (dataSource.count>indexPath.row+1);
- }
-//限制单元移动到最后一个单元格的下方
--(NSIndexPath*)tableView:(UITableView *)tableView targetIndexPathForMoveFromRowAtIndexPath:(NSIndexPath *)sourceIndexPath toProposedIndexPath:(NSIndexPath *)proposedDestinationIndexPath
-{
-    if (dataSource.count>proposedDestinationIndexPath.row+1) {
-        return proposedDestinationIndexPath;
-    }
-    else
-    {
-        return sourceIndexPath;
-    }
-}
 /*
  - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
  {
@@ -205,9 +156,21 @@
  }
  */
 
+/*
+ // Override to support rearranging the table view.
+ - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
+ {
+ }
+ */
 
-
-
+/*
+ // Override to support conditional rearranging of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ // Return NO if you do not want the item to be re-orderable.
+ return YES;
+ }
+ */
 
 /*
  #pragma mark - Navigation

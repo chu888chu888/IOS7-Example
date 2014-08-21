@@ -1,37 +1,25 @@
 //
-//  FirstTableViewController.m
+//  ContentViewCustomerTableViewController.m
 //  AppDemo
 //
-//  Created by chuguangming on 14-8-15.
+//  Created by chuguangming on 14-8-20.
 //  Copyright (c) 2014年 chu. All rights reserved.
 //
 
-#import "FirstTableViewController.h"
+#import "ContentViewCustomerTableViewController.h"
 
-@interface FirstTableViewController ()
+@interface ContentViewCustomerTableViewController ()
 
 @end
 
-@implementation FirstTableViewController
-@synthesize items;
+@implementation ContentViewCustomerTableViewController
+@synthesize sections,dataSource;
 - (id)initWithStyle:(UITableViewStyle)style
 {
-    self = [super initWithStyle:style];
+    self = [super initWithStyle:UITableViewStyleGrouped];
     if (self) {
         // Custom initialization
-        //导航条中的prompt
-        self.navigationItem.prompt=@"信息聚合页";
-        self.navigationItem.title=@"首页";
-        //在右侧添加按钮
-        UIBarButtonItem *rightItem=[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:nil action:nil];
-        self.navigationItem.rightBarButtonItem=rightItem;
-        //在左侧添加按钮
-        UIBarButtonItem *leftItem=[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:nil action:nil];
-        self.navigationItem.leftBarButtonItem=leftItem;
-        //TabBarController中的Tabbar按钮
-        self.tabBarItem=[[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:0];
-        self.tabBarItem.badgeValue=@"4";
-        items=[[NSMutableArray alloc] initWithObjects:@"MyViewController1",@"MyViewController2",@"ModelDialog",@"OperationTableViewController",@"CustomerTableViewController",@"ContentViewCustomerTableViewController", nil];
+        self.title=@"自定义ContentView";
     }
     return self;
 }
@@ -45,6 +33,11 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //创建显示用数据数组
+    sections=[[NSArray alloc] initWithObjects:@"姓名",@"必杀技",@"强弱", nil];
+    NSArray *rows1=[NSArray arrayWithObjects:@"李小龙", nil];
+    NSArray *rows2=[NSArray arrayWithObjects:@"截拳道", nil];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,36 +50,16 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+#warning Potentially incomplete method implementation.
+    // Return the number of sections.
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [items count];
-}
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *simpleTableIdentifier = @"SimpleTableItem";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
-    
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
-    }
-    
-    cell.textLabel.text = [items objectAtIndex:indexPath.row];
-    return cell;
-}
--(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    Class class=NSClassFromString([items objectAtIndex:indexPath.row]);
-    id viewController=[[class alloc] init];
-    if(viewController)
-    {
-        [self.navigationController pushViewController:viewController animated:NO];
-        
-    }
-    
+#warning Incomplete method implementation.
+    // Return the number of rows in the section.
+    return 0;
 }
 
 /*
