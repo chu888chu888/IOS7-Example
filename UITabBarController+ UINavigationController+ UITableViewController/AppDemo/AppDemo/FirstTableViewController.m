@@ -13,7 +13,7 @@
 @end
 
 @implementation FirstTableViewController
-@synthesize items;
+@synthesize items,DetailItems;
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -31,7 +31,12 @@
         //TabBarController中的Tabbar按钮
         self.tabBarItem=[[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:0];
         self.tabBarItem.badgeValue=@"4";
-        items=[[NSMutableArray alloc] initWithObjects:@"MyViewController1",@"MyViewController2",@"ModelDialog",@"OperationTableViewController",@"CustomerTableViewController",@"ContentViewCustomerTableViewController", nil];
+        items=[[NSMutableArray alloc] initWithObjects:@"MyViewController1",@"MyViewController2",@"ModelDialog",@"OperationTableViewController",
+                            @"CustomerTableViewController",@"ContentViewCustomerTableViewController",
+                            @"FullImageViewController", nil];
+        DetailItems=[[NSMutableArray alloc]
+            initWithObjects:@"基本组件使用一",@"基本组件使用二",@"模式对话框",@"表格-演示追加数据删除数据演示",@"表格-自定义Title表头",@"表格-自定义内容表格",@"图片-图片显示", nil];
+
     }
     return self;
 }
@@ -74,7 +79,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
     }
     
-    cell.textLabel.text = [items objectAtIndex:indexPath.row];
+    cell.textLabel.text = [DetailItems objectAtIndex:indexPath.row];
     return cell;
 }
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -88,7 +93,34 @@
     }
     
 }
+//关于画面旋转
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
+   	return (toInterfaceOrientation == UIInterfaceOrientationPortrait);
+}
+- (BOOL)shouldAutorotate
+{
+   	return NO;
+}
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;//只支持这一个方向(正常的方向)
+}
 
+//视图旋转之前自动调用
+-(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
+    NSLog(@"视图旋转之前自动调用");
+}
+//视图旋转方向发生改变时会自动调用
+-(void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+{
+    NSLog(@"视图旋转方向发生改变时会自动调用");
+}
+//视图旋转完成之后会自动调用
+
+-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+    NSLog(@"视图旋转完成之后自动调用");
+}
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {

@@ -10,4 +10,5 @@
 
 @interface FirstTableViewController : UITableViewController
 @property(nonatomic,retain) NSMutableArray *items;
+@property(nonatomic,retain) NSMutableArray *DetailItems;
 @end

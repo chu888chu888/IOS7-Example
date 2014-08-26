@@ -18,7 +18,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-
+         //隐藏下面的工具条
+         self.hidesBottomBarWhenPushed = YES;
     }
     return self;
 }
@@ -34,7 +35,7 @@
     label.backgroundColor=[UIColor blackColor];
     label.textColor=[UIColor whiteColor];
     label.textAlignment=UITextAlignmentCenter;
-    label.text=@"您好,我是模式画面";
+    label.text=@"隐藏所有工具条";
     [self.view addSubview:label];
     
     //追加关闭按钮

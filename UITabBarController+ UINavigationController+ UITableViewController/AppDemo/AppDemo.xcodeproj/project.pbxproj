@@ -56,6 +56,8 @@
 		B97ED46219A4487C00477A1E /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ED43219A4487C00477A1E /* video.png */; };
 		B97ED46319A4487C00477A1E /* vynil.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ED43319A4487C00477A1E /* vynil.png */; };
 		B97ED46419A4487C00477A1E /* world.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ED43419A4487C00477A1E /* world.png */; };
+		B9BF07D319AC6F720087422B /* FullImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BF07D219AC6F720087422B /* FullImageViewController.m */; };
+		B9BF07D519AC72100087422B /* mei.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B9BF07D419AC72100087422B /* mei.jpeg */; };
 		B9CE8757199DB77700164D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CE8756199DB77700164D0B /* Foundation.framework */; };
 		B9CE8759199DB77700164D0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CE8758199DB77700164D0B /* CoreGraphics.framework */; };
 		B9CE875B199DB77700164D0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CE875A199DB77700164D0B /* UIKit.framework */; };
@@ -140,6 +142,9 @@
 		B97ED43219A4487C00477A1E /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video.png; sourceTree = "<group>"; };
 		B97ED43319A4487C00477A1E /* vynil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vynil.png; sourceTree = "<group>"; };
 		B97ED43419A4487C00477A1E /* world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world.png; sourceTree = "<group>"; };
+		B9BF07D119AC6F720087422B /* FullImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullImageViewController.h; sourceTree = "<group>"; };
+		B9BF07D219AC6F720087422B /* FullImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullImageViewController.m; sourceTree = "<group>"; };
+		B9BF07D419AC72100087422B /* mei.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mei.jpeg; sourceTree = "<group>"; };
 		B9CE8753199DB77700164D0B /* AppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CE8756199DB77700164D0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B9CE8758199DB77700164D0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -275,6 +280,7 @@
 		B9CE8785199DC26800164D0B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B9BF07D419AC72100087422B /* mei.jpeg */,
 				B97ED40519A4487C00477A1E /* banknote.png */,
 				B97ED40619A4487C00477A1E /* bubble.png */,
 				B97ED40719A4487C00477A1E /* bulb.png */,
@@ -356,6 +362,8 @@
 				B9D7FF1219A1FA3600005C6B /* CustomerTableViewController.m */,
 				B91EEC3319A47B25001AB304 /* ContentViewCustomerTableViewController.h */,
 				B91EEC3419A47B25001AB304 /* ContentViewCustomerTableViewController.m */,
+				B9BF07D119AC6F720087422B /* FullImageViewController.h */,
+				B9BF07D219AC6F720087422B /* FullImageViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -478,6 +486,7 @@
 				B97ED44519A4487C00477A1E /* key.png in Resources */,
 				B97ED44119A4487C00477A1E /* eye.png in Resources */,
 				B97ED44919A4487C00477A1E /* lock.png in Resources */,
+				B9BF07D519AC72100087422B /* mei.jpeg in Resources */,
 				B97ED44A19A4487C00477A1E /* mail.png in Resources */,
 				B97ED44419A4487C00477A1E /* heart.png in Resources */,
 				B97ED45A19A4487C00477A1E /* study.png in Resources */,
@@ -513,6 +522,7 @@
 				B9CE879A199DD08E00164D0B /* MyViewController1.m in Sources */,
 				B9CE8763199DB77700164D0B /* main.m in Sources */,
 				B9CE879B199DD08E00164D0B /* MyViewController2.m in Sources */,
+				B9BF07D319AC6F720087422B /* FullImageViewController.m in Sources */,
 				B9CE878B199DC3C900164D0B /* FirstTableViewController.m in Sources */,
 				B9CE8799199DD08E00164D0B /* ModelDialog.m in Sources */,
 			);
