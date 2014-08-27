@@ -1,18 +1,19 @@
 //
-//  MyViewController2.m
-//  UIViewControllerDemo
+//  UIKitPrjUIDatePickerViewController.m
+//  AppDemo
 //
-//  Created by chuguangming on 14-8-4.
+//  Created by chuguangming on 14-8-27.
 //  Copyright (c) 2014年 chu. All rights reserved.
 //
 
-#import "MyViewController2.h"
-#import "ModelDialog.h"
-@interface MyViewController2 ()
+#import "UIKitPrjUIDatePickerViewController.h"
+
+@interface UIKitPrjUIDatePickerViewController ()
 
 @end
 
-@implementation MyViewController2
+@implementation UIKitPrjUIDatePickerViewController
+
 @synthesize datePicker;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,22 +24,18 @@
     }
     return self;
 }
--(void)buttonDidPush
-{
-    id dialog=[[ModelDialog alloc] init];
-    [self presentModalViewController:dialog animated:YES];
-}
+
 -(void)buttonShowDate
 {
-
-        NSDateFormatter *formatter=[[NSDateFormatter alloc] init];
-        [formatter setDateFormat:@"yyyy/MM//dd HH:mm"];
-        NSString *dateString=[formatter stringFromDate:datePicker.date];
-        UIAlertView *alert=[[UIAlertView alloc]init];
-        alert.message=dateString;
-        [alert addButtonWithTitle:@"OK"];
-        [alert show];
-
+    
+    NSDateFormatter *formatter=[[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy/MM//dd HH:mm"];
+    NSString *dateString=[formatter stringFromDate:datePicker.date];
+    UIAlertView *alert=[[UIAlertView alloc]init];
+    alert.message=dateString;
+    [alert addButtonWithTitle:@"OK"];
+    [alert show];
+    
 }
 -(void)buttonActivtyIndicator
 {
@@ -47,27 +44,15 @@
     indicator.center=self.view.center;
     [self.view addSubview:indicator];
     [indicator startAnimating];
-
+    
 }
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    UILabel *label=[[UILabel alloc] initWithFrame:self.view.bounds];
-    label.text=@"MyViewController2";
-    label.textAlignment=UITextAlignmentCenter;
-    label.autoresizingMask=UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
-    [self.view addSubview:label];
     
-    UIButton *button=[UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button setTitle:@"模式对话框" forState:UIControlStateNormal];
-    [button sizeToFit];
+    
     CGPoint centerPoint=self.view.center;
     centerPoint.y+=50;
-    button.center=centerPoint;
-    button.autoresizingMask=UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
-    [button addTarget:self action:@selector(buttonDidPush) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
     
     //添加日期选择框
     datePicker=[[UIDatePicker alloc] init];
@@ -100,14 +85,13 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 @end

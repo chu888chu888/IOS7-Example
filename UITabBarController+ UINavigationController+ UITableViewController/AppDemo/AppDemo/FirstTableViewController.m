@@ -31,11 +31,11 @@
         //TabBarController中的Tabbar按钮
         self.tabBarItem=[[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:0];
         self.tabBarItem.badgeValue=@"4";
-        items=[[NSMutableArray alloc] initWithObjects:@"MyViewController1",@"MyViewController2",@"ModelDialog",@"OperationTableViewController",
+        items=[[NSMutableArray alloc] initWithObjects:@"UIKitPrjSliderAndLabelViewController",@"UIKitPrjUIDatePickerViewController",@"OperationTableViewController",
                             @"CustomerTableViewController",@"ContentViewCustomerTableViewController",
-                            @"FullImageViewController", nil];
+                            @"FullImageViewController",@"UIKitPrjButtonUIViewController", nil];
         DetailItems=[[NSMutableArray alloc]
-            initWithObjects:@"基本组件使用一",@"基本组件使用二",@"模式对话框",@"表格-演示追加数据删除数据演示",@"表格-自定义Title表头",@"表格-自定义内容表格",@"图片-图片显示", nil];
+            initWithObjects:@"1-自定义NavigationItem与Slider组件演示",@"2-日期选择组件演示",@"3-表格-演示追加数据删除数据演示",@"4-表格-自定义Title表头",@"5-表格-自定义内容表格",@"6-图片-图片显示",@"7-Button组件演示", nil];
 
     }
     return self;

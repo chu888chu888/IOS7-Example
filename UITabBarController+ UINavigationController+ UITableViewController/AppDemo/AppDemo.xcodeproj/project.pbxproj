@@ -56,6 +56,12 @@
 		B97ED46219A4487C00477A1E /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ED43219A4487C00477A1E /* video.png */; };
 		B97ED46319A4487C00477A1E /* vynil.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ED43319A4487C00477A1E /* vynil.png */; };
 		B97ED46419A4487C00477A1E /* world.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ED43419A4487C00477A1E /* world.png */; };
+		B98E157F19ADA4D8001AFBA6 /* UIView-SubviewGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = B98E157A19ADA4D8001AFBA6 /* UIView-SubviewGeometry.m */; };
+		B98E158019ADA4D8001AFBA6 /* UIView-TagExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B98E157C19ADA4D8001AFBA6 /* UIView-TagExtensions.m */; };
+		B98E158119ADA4D8001AFBA6 /* UIView-ViewFrameGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = B98E157E19ADA4D8001AFBA6 /* UIView-ViewFrameGeometry.m */; };
+		B98E158419ADA700001AFBA6 /* UIKitPrjButtonUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98E158319ADA700001AFBA6 /* UIKitPrjButtonUIViewController.m */; };
+		B98E158719ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98E158619ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.m */; };
+		B98E158A19ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98E158919ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.m */; };
 		B9BF07D319AC6F720087422B /* FullImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BF07D219AC6F720087422B /* FullImageViewController.m */; };
 		B9BF07D519AC72100087422B /* mei.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B9BF07D419AC72100087422B /* mei.jpeg */; };
 		B9CE8757199DB77700164D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CE8756199DB77700164D0B /* Foundation.framework */; };
@@ -74,9 +80,6 @@
 		B9CE878B199DC3C900164D0B /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CE878A199DC3C900164D0B /* FirstTableViewController.m */; };
 		B9CE878E199DC91400164D0B /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CE878D199DC91400164D0B /* SecondTableViewController.m */; };
 		B9CE8791199DC97A00164D0B /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CE8790199DC97A00164D0B /* ThirdTableViewController.m */; };
-		B9CE8799199DD08E00164D0B /* ModelDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CE8794199DD08E00164D0B /* ModelDialog.m */; };
-		B9CE879A199DD08E00164D0B /* MyViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CE8796199DD08E00164D0B /* MyViewController1.m */; };
-		B9CE879B199DD08E00164D0B /* MyViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CE8798199DD08E00164D0B /* MyViewController2.m */; };
 		B9D7FF1019A1D19C00005C6B /* OperationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D7FF0F19A1D19C00005C6B /* OperationTableViewController.m */; };
 		B9D7FF1319A1FA3600005C6B /* CustomerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D7FF1219A1FA3600005C6B /* CustomerTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -142,6 +145,18 @@
 		B97ED43219A4487C00477A1E /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video.png; sourceTree = "<group>"; };
 		B97ED43319A4487C00477A1E /* vynil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vynil.png; sourceTree = "<group>"; };
 		B97ED43419A4487C00477A1E /* world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world.png; sourceTree = "<group>"; };
+		B98E157919ADA4D8001AFBA6 /* UIView-SubviewGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView-SubviewGeometry.h"; sourceTree = "<group>"; };
+		B98E157A19ADA4D8001AFBA6 /* UIView-SubviewGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView-SubviewGeometry.m"; sourceTree = "<group>"; };
+		B98E157B19ADA4D8001AFBA6 /* UIView-TagExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView-TagExtensions.h"; sourceTree = "<group>"; };
+		B98E157C19ADA4D8001AFBA6 /* UIView-TagExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView-TagExtensions.m"; sourceTree = "<group>"; };
+		B98E157D19ADA4D8001AFBA6 /* UIView-ViewFrameGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView-ViewFrameGeometry.h"; sourceTree = "<group>"; };
+		B98E157E19ADA4D8001AFBA6 /* UIView-ViewFrameGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView-ViewFrameGeometry.m"; sourceTree = "<group>"; };
+		B98E158219ADA700001AFBA6 /* UIKitPrjButtonUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitPrjButtonUIViewController.h; sourceTree = "<group>"; };
+		B98E158319ADA700001AFBA6 /* UIKitPrjButtonUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitPrjButtonUIViewController.m; sourceTree = "<group>"; };
+		B98E158519ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitPrjSliderAndLabelViewController.h; sourceTree = "<group>"; };
+		B98E158619ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitPrjSliderAndLabelViewController.m; sourceTree = "<group>"; };
+		B98E158819ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitPrjUIDatePickerViewController.h; sourceTree = "<group>"; };
+		B98E158919ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitPrjUIDatePickerViewController.m; sourceTree = "<group>"; };
 		B9BF07D119AC6F720087422B /* FullImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullImageViewController.h; sourceTree = "<group>"; };
 		B9BF07D219AC6F720087422B /* FullImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullImageViewController.m; sourceTree = "<group>"; };
 		B9BF07D419AC72100087422B /* mei.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mei.jpeg; sourceTree = "<group>"; };
@@ -168,12 +183,6 @@
 		B9CE878D199DC91400164D0B /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
 		B9CE878F199DC97A00164D0B /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
 		B9CE8790199DC97A00164D0B /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
-		B9CE8793199DD08E00164D0B /* ModelDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDialog.h; sourceTree = "<group>"; };
-		B9CE8794199DD08E00164D0B /* ModelDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDialog.m; sourceTree = "<group>"; };
-		B9CE8795199DD08E00164D0B /* MyViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController1.h; sourceTree = "<group>"; };
-		B9CE8796199DD08E00164D0B /* MyViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController1.m; sourceTree = "<group>"; };
-		B9CE8797199DD08E00164D0B /* MyViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController2.h; sourceTree = "<group>"; };
-		B9CE8798199DD08E00164D0B /* MyViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController2.m; sourceTree = "<group>"; };
 		B9D7FF0E19A1D19C00005C6B /* OperationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationTableViewController.h; sourceTree = "<group>"; };
 		B9D7FF0F19A1D19C00005C6B /* OperationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationTableViewController.m; sourceTree = "<group>"; };
 		B9D7FF1119A1FA3600005C6B /* CustomerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTableViewController.h; sourceTree = "<group>"; };
@@ -204,6 +213,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B98E157819ADA4BE001AFBA6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B98E157919ADA4D8001AFBA6 /* UIView-SubviewGeometry.h */,
+				B98E157A19ADA4D8001AFBA6 /* UIView-SubviewGeometry.m */,
+				B98E157B19ADA4D8001AFBA6 /* UIView-TagExtensions.h */,
+				B98E157C19ADA4D8001AFBA6 /* UIView-TagExtensions.m */,
+				B98E157D19ADA4D8001AFBA6 /* UIView-ViewFrameGeometry.h */,
+				B98E157E19ADA4D8001AFBA6 /* UIView-ViewFrameGeometry.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		B9CE874A199DB77600164D0B = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +259,7 @@
 		B9CE875C199DB77700164D0B /* AppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B98E157819ADA4BE001AFBA6 /* Util */,
 				B9CE8792199DCF9600164D0B /* ViewController */,
 				B9CE8788199DC33D00164D0B /* Controller */,
 				B9CE8785199DC26800164D0B /* Resource */,
@@ -350,12 +373,6 @@
 		B9CE8792199DCF9600164D0B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B9CE8793199DD08E00164D0B /* ModelDialog.h */,
-				B9CE8794199DD08E00164D0B /* ModelDialog.m */,
-				B9CE8795199DD08E00164D0B /* MyViewController1.h */,
-				B9CE8796199DD08E00164D0B /* MyViewController1.m */,
-				B9CE8797199DD08E00164D0B /* MyViewController2.h */,
-				B9CE8798199DD08E00164D0B /* MyViewController2.m */,
 				B9D7FF0E19A1D19C00005C6B /* OperationTableViewController.h */,
 				B9D7FF0F19A1D19C00005C6B /* OperationTableViewController.m */,
 				B9D7FF1119A1FA3600005C6B /* CustomerTableViewController.h */,
@@ -364,6 +381,12 @@
 				B91EEC3419A47B25001AB304 /* ContentViewCustomerTableViewController.m */,
 				B9BF07D119AC6F720087422B /* FullImageViewController.h */,
 				B9BF07D219AC6F720087422B /* FullImageViewController.m */,
+				B98E158219ADA700001AFBA6 /* UIKitPrjButtonUIViewController.h */,
+				B98E158319ADA700001AFBA6 /* UIKitPrjButtonUIViewController.m */,
+				B98E158519ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.h */,
+				B98E158619ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.m */,
+				B98E158819ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.h */,
+				B98E158919ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -517,14 +540,17 @@
 				B9CE878E199DC91400164D0B /* SecondTableViewController.m in Sources */,
 				B9D7FF1019A1D19C00005C6B /* OperationTableViewController.m in Sources */,
 				B9D7FF1319A1FA3600005C6B /* CustomerTableViewController.m in Sources */,
+				B98E158119ADA4D8001AFBA6 /* UIView-ViewFrameGeometry.m in Sources */,
 				B91EEC3519A47B25001AB304 /* ContentViewCustomerTableViewController.m in Sources */,
 				B9CE8791199DC97A00164D0B /* ThirdTableViewController.m in Sources */,
-				B9CE879A199DD08E00164D0B /* MyViewController1.m in Sources */,
+				B98E158A19ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.m in Sources */,
 				B9CE8763199DB77700164D0B /* main.m in Sources */,
-				B9CE879B199DD08E00164D0B /* MyViewController2.m in Sources */,
 				B9BF07D319AC6F720087422B /* FullImageViewController.m in Sources */,
+				B98E158719ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.m in Sources */,
 				B9CE878B199DC3C900164D0B /* FirstTableViewController.m in Sources */,
-				B9CE8799199DD08E00164D0B /* ModelDialog.m in Sources */,
+				B98E158419ADA700001AFBA6 /* UIKitPrjButtonUIViewController.m in Sources */,
+				B98E157F19ADA4D8001AFBA6 /* UIView-SubviewGeometry.m in Sources */,
+				B98E158019ADA4D8001AFBA6 /* UIView-TagExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

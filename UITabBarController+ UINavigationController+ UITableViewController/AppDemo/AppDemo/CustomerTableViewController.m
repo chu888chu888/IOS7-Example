@@ -7,7 +7,6 @@
 //
 
 #import "CustomerTableViewController.h"
-#import "ModelDialog.h"
 @interface CustomerTableViewController ()
 
 @end
@@ -104,8 +103,7 @@
 }
 -(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
 {
-    ModelDialog *md=[[ModelDialog alloc]init];
-    [self.navigationController pushViewController:md animated:YES];
+
 }
 //单元的追加与删除
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
