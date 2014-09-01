@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2D7F0EE0-CEA2-4D92-89DA-B0785BA50612</string>
+	<string>3C556008-DC26-48BB-9195-B52BD6A04A22</string>
 	<key>IDESourceControlProjectName</key>
-	<string>TableDemo4</string>
+	<string>Hello World</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>103DD036-49E2-4094-A40F-E66922F25F49</key>
+		<key>E7E90BE6-6E33-4460-A20D-D0B49BDA2CFF</key>
 		<string>https://github.com/chu888chu888/IOS7Example.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>1-Table/3-TableDemo基本的自定义表格延伸支持跳转/TableDemo4.xcodeproj/project.xcworkspace</string>
+	<string>1-基本代码/01-基本导航栏与对话框的使用/Hello World.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>103DD036-49E2-4094-A40F-E66922F25F49</key>
+		<key>E7E90BE6-6E33-4460-A20D-D0B49BDA2CFF</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>103DD036-49E2-4094-A40F-E66922F25F49</string>
+	<string>E7E90BE6-6E33-4460-A20D-D0B49BDA2CFF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>103DD036-49E2-4094-A40F-E66922F25F49</string>
+			<string>E7E90BE6-6E33-4460-A20D-D0B49BDA2CFF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>IOS7Example</string>
 		</dict>

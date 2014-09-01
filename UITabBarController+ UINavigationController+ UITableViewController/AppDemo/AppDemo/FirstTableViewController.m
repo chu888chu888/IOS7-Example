@@ -33,9 +33,9 @@
         self.tabBarItem.badgeValue=@"4";
         items=[[NSMutableArray alloc] initWithObjects:@"UIKitPrjSliderAndLabelViewController",@"UIKitPrjUIDatePickerViewController",@"OperationTableViewController",
                             @"CustomerTableViewController",@"ContentViewCustomerTableViewController",
-                            @"FullImageViewController",@"UIKitPrjButtonUIViewController", nil];
+                            @"FullImageViewController",@"UIKitPrjButtonUIViewController",@"UIKitPrjTouchesBeganViewController",@"UIKitPrjResponderChainViewController",@"UIKitPrjAppViewController",@"CustomerMasterViewController", nil];
         DetailItems=[[NSMutableArray alloc]
-            initWithObjects:@"1-自定义NavigationItem与Slider组件演示",@"2-日期选择组件演示",@"3-表格-演示追加数据删除数据演示",@"4-表格-自定义Title表头",@"5-表格-自定义内容表格",@"6-图片-图片显示",@"7-Button组件演示", nil];
+            initWithObjects:@"1-自定义NavigationItem与Slider组件演示",@"2-日期选择组件演示",@"3-表格-演示追加数据删除数据演示",@"4-表格-自定义Title表头",@"5-表格-自定义内容表格",@"6-图片-图片显示",@"7-Button组件演示",@"8-UIResponder演示",@"9-事件传递演示",@"10-应用程序测试",@"11-自定义表格单元", nil];
 
     }
     return self;

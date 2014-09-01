@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90F234219B41B83001AEA2A /* CustomerMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90F234119B41B83001AEA2A /* CustomerMasterViewController.m */; };
+		B90F234519B41B95001AEA2A /* CustomerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90F234419B41B95001AEA2A /* CustomerDetailViewController.m */; };
+		B90F234919B42290001AEA2A /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B90F234719B42290001AEA2A /* SimpleTableCell.m */; };
+		B90F234A19B42290001AEA2A /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90F234819B42290001AEA2A /* SimpleTableCell.xib */; };
+		B90F234F19B4245A001AEA2A /* head.gif in Resources */ = {isa = PBXBuildFile; fileRef = B90F234B19B4245A001AEA2A /* head.gif */; };
+		B90F235019B4245A001AEA2A /* head2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B90F234C19B4245A001AEA2A /* head2.jpg */; };
+		B90F235119B4245A001AEA2A /* head3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B90F234D19B4245A001AEA2A /* head3.jpg */; };
+		B90F235219B4245A001AEA2A /* head4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B90F234E19B4245A001AEA2A /* head4.jpg */; };
 		B91EEC3519A47B25001AB304 /* ContentViewCustomerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91EEC3419A47B25001AB304 /* ContentViewCustomerTableViewController.m */; };
+		B9585EA119AECAA700DEBC02 /* TouchableLabelForResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = B9585EA019AECAA700DEBC02 /* TouchableLabelForResponder.m */; };
+		B9585EA419AECDF800DEBC02 /* UIKitPrjResponderChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9585EA319AECDF800DEBC02 /* UIKitPrjResponderChainViewController.m */; };
 		B97ED43519A4487C00477A1E /* banknote.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ED40519A4487C00477A1E /* banknote.png */; };
 		B97ED43619A4487C00477A1E /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ED40619A4487C00477A1E /* bubble.png */; };
 		B97ED43719A4487C00477A1E /* bulb.png in Resources */ = {isa = PBXBuildFile; fileRef = B97ED40719A4487C00477A1E /* bulb.png */; };
@@ -62,8 +72,11 @@
 		B98E158419ADA700001AFBA6 /* UIKitPrjButtonUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98E158319ADA700001AFBA6 /* UIKitPrjButtonUIViewController.m */; };
 		B98E158719ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98E158619ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.m */; };
 		B98E158A19ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98E158919ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.m */; };
+		B98E158D19ADD171001AFBA6 /* UIKitPrjTouchesBeganViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98E158C19ADD171001AFBA6 /* UIKitPrjTouchesBeganViewController.m */; };
+		B98E159119ADDD95001AFBA6 /* TouchableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B98E159019ADDD95001AFBA6 /* TouchableLabel.m */; };
 		B9BF07D319AC6F720087422B /* FullImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BF07D219AC6F720087422B /* FullImageViewController.m */; };
 		B9BF07D519AC72100087422B /* mei.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B9BF07D419AC72100087422B /* mei.jpeg */; };
+		B9C616E519B0609D00814F12 /* UIKitPrjAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C616E419B0609D00814F12 /* UIKitPrjAppViewController.m */; };
 		B9CE8757199DB77700164D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CE8756199DB77700164D0B /* Foundation.framework */; };
 		B9CE8759199DB77700164D0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CE8758199DB77700164D0B /* CoreGraphics.framework */; };
 		B9CE875B199DB77700164D0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CE875A199DB77700164D0B /* UIKit.framework */; };
@@ -95,8 +108,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B90F234019B41B83001AEA2A /* CustomerMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerMasterViewController.h; sourceTree = "<group>"; };
+		B90F234119B41B83001AEA2A /* CustomerMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerMasterViewController.m; sourceTree = "<group>"; };
+		B90F234319B41B95001AEA2A /* CustomerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerDetailViewController.h; sourceTree = "<group>"; };
+		B90F234419B41B95001AEA2A /* CustomerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerDetailViewController.m; sourceTree = "<group>"; };
+		B90F234619B42290001AEA2A /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		B90F234719B42290001AEA2A /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+		B90F234819B42290001AEA2A /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
+		B90F234B19B4245A001AEA2A /* head.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = head.gif; sourceTree = "<group>"; };
+		B90F234C19B4245A001AEA2A /* head2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head2.jpg; sourceTree = "<group>"; };
+		B90F234D19B4245A001AEA2A /* head3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head3.jpg; sourceTree = "<group>"; };
+		B90F234E19B4245A001AEA2A /* head4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head4.jpg; sourceTree = "<group>"; };
 		B91EEC3319A47B25001AB304 /* ContentViewCustomerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewCustomerTableViewController.h; sourceTree = "<group>"; };
 		B91EEC3419A47B25001AB304 /* ContentViewCustomerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewCustomerTableViewController.m; sourceTree = "<group>"; };
+		B9585E9F19AECAA700DEBC02 /* TouchableLabelForResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchableLabelForResponder.h; sourceTree = "<group>"; };
+		B9585EA019AECAA700DEBC02 /* TouchableLabelForResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchableLabelForResponder.m; sourceTree = "<group>"; };
+		B9585EA219AECDF800DEBC02 /* UIKitPrjResponderChainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitPrjResponderChainViewController.h; sourceTree = "<group>"; };
+		B9585EA319AECDF800DEBC02 /* UIKitPrjResponderChainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitPrjResponderChainViewController.m; sourceTree = "<group>"; };
 		B97ED40519A4487C00477A1E /* banknote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banknote.png; sourceTree = "<group>"; };
 		B97ED40619A4487C00477A1E /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
 		B97ED40719A4487C00477A1E /* bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulb.png; sourceTree = "<group>"; };
@@ -157,9 +185,15 @@
 		B98E158619ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitPrjSliderAndLabelViewController.m; sourceTree = "<group>"; };
 		B98E158819ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitPrjUIDatePickerViewController.h; sourceTree = "<group>"; };
 		B98E158919ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitPrjUIDatePickerViewController.m; sourceTree = "<group>"; };
+		B98E158B19ADD171001AFBA6 /* UIKitPrjTouchesBeganViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitPrjTouchesBeganViewController.h; sourceTree = "<group>"; };
+		B98E158C19ADD171001AFBA6 /* UIKitPrjTouchesBeganViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitPrjTouchesBeganViewController.m; sourceTree = "<group>"; };
+		B98E158F19ADDD95001AFBA6 /* TouchableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchableLabel.h; sourceTree = "<group>"; };
+		B98E159019ADDD95001AFBA6 /* TouchableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchableLabel.m; sourceTree = "<group>"; };
 		B9BF07D119AC6F720087422B /* FullImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullImageViewController.h; sourceTree = "<group>"; };
 		B9BF07D219AC6F720087422B /* FullImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullImageViewController.m; sourceTree = "<group>"; };
 		B9BF07D419AC72100087422B /* mei.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mei.jpeg; sourceTree = "<group>"; };
+		B9C616E319B0609D00814F12 /* UIKitPrjAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitPrjAppViewController.h; sourceTree = "<group>"; };
+		B9C616E419B0609D00814F12 /* UIKitPrjAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitPrjAppViewController.m; sourceTree = "<group>"; };
 		B9CE8753199DB77700164D0B /* AppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CE8756199DB77700164D0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B9CE8758199DB77700164D0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -213,6 +247,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B90F233F19B41B59001AEA2A /* CustomerTable */ = {
+			isa = PBXGroup;
+			children = (
+				B90F234619B42290001AEA2A /* SimpleTableCell.h */,
+				B90F234719B42290001AEA2A /* SimpleTableCell.m */,
+				B90F234819B42290001AEA2A /* SimpleTableCell.xib */,
+				B90F234019B41B83001AEA2A /* CustomerMasterViewController.h */,
+				B90F234119B41B83001AEA2A /* CustomerMasterViewController.m */,
+				B90F234319B41B95001AEA2A /* CustomerDetailViewController.h */,
+				B90F234419B41B95001AEA2A /* CustomerDetailViewController.m */,
+			);
+			name = CustomerTable;
+			sourceTree = "<group>";
+		};
 		B98E157819ADA4BE001AFBA6 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +272,17 @@
 				B98E157E19ADA4D8001AFBA6 /* UIView-ViewFrameGeometry.m */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		B98E158E19ADDD7B001AFBA6 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B98E158F19ADDD95001AFBA6 /* TouchableLabel.h */,
+				B98E159019ADDD95001AFBA6 /* TouchableLabel.m */,
+				B9585E9F19AECAA700DEBC02 /* TouchableLabelForResponder.h */,
+				B9585EA019AECAA700DEBC02 /* TouchableLabelForResponder.m */,
+			);
+			name = UIKit;
 			sourceTree = "<group>";
 		};
 		B9CE874A199DB77600164D0B = {
@@ -259,6 +318,8 @@
 		B9CE875C199DB77700164D0B /* AppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B90F233F19B41B59001AEA2A /* CustomerTable */,
+				B98E158E19ADDD7B001AFBA6 /* UIKit */,
 				B98E157819ADA4BE001AFBA6 /* Util */,
 				B9CE8792199DCF9600164D0B /* ViewController */,
 				B9CE8788199DC33D00164D0B /* Controller */,
@@ -303,6 +364,10 @@
 		B9CE8785199DC26800164D0B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B90F234B19B4245A001AEA2A /* head.gif */,
+				B90F234C19B4245A001AEA2A /* head2.jpg */,
+				B90F234D19B4245A001AEA2A /* head3.jpg */,
+				B90F234E19B4245A001AEA2A /* head4.jpg */,
 				B9BF07D419AC72100087422B /* mei.jpeg */,
 				B97ED40519A4487C00477A1E /* banknote.png */,
 				B97ED40619A4487C00477A1E /* bubble.png */,
@@ -387,6 +452,12 @@
 				B98E158619ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.m */,
 				B98E158819ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.h */,
 				B98E158919ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.m */,
+				B98E158B19ADD171001AFBA6 /* UIKitPrjTouchesBeganViewController.h */,
+				B98E158C19ADD171001AFBA6 /* UIKitPrjTouchesBeganViewController.m */,
+				B9585EA219AECDF800DEBC02 /* UIKitPrjResponderChainViewController.h */,
+				B9585EA319AECDF800DEBC02 /* UIKitPrjResponderChainViewController.m */,
+				B9C616E319B0609D00814F12 /* UIKitPrjAppViewController.h */,
+				B9C616E419B0609D00814F12 /* UIKitPrjAppViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -482,8 +553,11 @@
 				B97ED45419A4487C00477A1E /* search.png in Resources */,
 				B97ED46019A4487C00477A1E /* user.png in Resources */,
 				B97ED43719A4487C00477A1E /* bulb.png in Resources */,
+				B90F235219B4245A001AEA2A /* head4.jpg in Resources */,
+				B90F234F19B4245A001AEA2A /* head.gif in Resources */,
 				B97ED44219A4487C00477A1E /* fire.png in Resources */,
 				B97ED43C19A4487C00477A1E /* cloud.png in Resources */,
+				B90F235019B4245A001AEA2A /* head2.jpg in Resources */,
 				B97ED46319A4487C00477A1E /* vynil.png in Resources */,
 				B97ED44F19A4487C00477A1E /* paperplane.png in Resources */,
 				B97ED45E19A4487C00477A1E /* truck.png in Resources */,
@@ -509,7 +583,9 @@
 				B97ED44519A4487C00477A1E /* key.png in Resources */,
 				B97ED44119A4487C00477A1E /* eye.png in Resources */,
 				B97ED44919A4487C00477A1E /* lock.png in Resources */,
+				B90F235119B4245A001AEA2A /* head3.jpg in Resources */,
 				B9BF07D519AC72100087422B /* mei.jpeg in Resources */,
+				B90F234A19B42290001AEA2A /* SimpleTableCell.xib in Resources */,
 				B97ED44A19A4487C00477A1E /* mail.png in Resources */,
 				B97ED44419A4487C00477A1E /* heart.png in Resources */,
 				B97ED45A19A4487C00477A1E /* study.png in Resources */,
@@ -537,6 +613,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9CE8767199DB77700164D0B /* AppDelegate.m in Sources */,
+				B90F234919B42290001AEA2A /* SimpleTableCell.m in Sources */,
+				B90F234219B41B83001AEA2A /* CustomerMasterViewController.m in Sources */,
 				B9CE878E199DC91400164D0B /* SecondTableViewController.m in Sources */,
 				B9D7FF1019A1D19C00005C6B /* OperationTableViewController.m in Sources */,
 				B9D7FF1319A1FA3600005C6B /* CustomerTableViewController.m in Sources */,
@@ -544,12 +622,18 @@
 				B91EEC3519A47B25001AB304 /* ContentViewCustomerTableViewController.m in Sources */,
 				B9CE8791199DC97A00164D0B /* ThirdTableViewController.m in Sources */,
 				B98E158A19ADBA25001AFBA6 /* UIKitPrjUIDatePickerViewController.m in Sources */,
+				B98E158D19ADD171001AFBA6 /* UIKitPrjTouchesBeganViewController.m in Sources */,
+				B9585EA419AECDF800DEBC02 /* UIKitPrjResponderChainViewController.m in Sources */,
 				B9CE8763199DB77700164D0B /* main.m in Sources */,
 				B9BF07D319AC6F720087422B /* FullImageViewController.m in Sources */,
 				B98E158719ADB7F3001AFBA6 /* UIKitPrjSliderAndLabelViewController.m in Sources */,
 				B9CE878B199DC3C900164D0B /* FirstTableViewController.m in Sources */,
 				B98E158419ADA700001AFBA6 /* UIKitPrjButtonUIViewController.m in Sources */,
 				B98E157F19ADA4D8001AFBA6 /* UIView-SubviewGeometry.m in Sources */,
+				B9C616E519B0609D00814F12 /* UIKitPrjAppViewController.m in Sources */,
+				B9585EA119AECAA700DEBC02 /* TouchableLabelForResponder.m in Sources */,
+				B90F234519B41B95001AEA2A /* CustomerDetailViewController.m in Sources */,
+				B98E159119ADDD95001AFBA6 /* TouchableLabel.m in Sources */,
 				B98E158019ADA4D8001AFBA6 /* UIView-TagExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
