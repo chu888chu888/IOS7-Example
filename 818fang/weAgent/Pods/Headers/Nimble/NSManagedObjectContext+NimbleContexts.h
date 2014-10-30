@@ -1,0 +1,1 @@
+../../Nimble/Nimble/Categories/NSManagedObjectContext+NimbleContexts.h

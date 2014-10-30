@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+pod 'Nimble', '~> 0.0.1'
+pod 'KIImagePager', '~> 1.5.3'
+pod 'M13BadgeView', '~> 1.0.3'
+pod 'CSLinearLayoutView', '~> 1.0'
+pod 'MYBlurIntroductionView', '~> 1.0.3'
+pod 'BEMSimpleLineGraph'

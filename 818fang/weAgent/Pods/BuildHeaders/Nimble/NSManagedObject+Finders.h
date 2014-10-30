@@ -1,0 +1,1 @@
+../../Nimble/Nimble/Categories/NSManagedObject+Finders.h

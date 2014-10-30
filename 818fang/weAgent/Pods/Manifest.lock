@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BEMSimpleLineGraph (3.1)
+  - CSLinearLayoutView (1.0)
+  - KIImagePager (1.5.3)
+  - M13BadgeView (1.0.3)
+  - MYBlurIntroductionView (1.0.3)
+  - Nimble (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - BEMSimpleLineGraph
+  - CSLinearLayoutView (~> 1.0)
+  - KIImagePager (~> 1.5.3)
+  - M13BadgeView (~> 1.0.3)
+  - MYBlurIntroductionView (~> 1.0.3)
+  - Nimble (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  BEMSimpleLineGraph: db20cc489912a023d9a082b7c05f15789195f3f6
+  CSLinearLayoutView: a9e6a98fe26133036df7bd0e72f80ea92cba00e6
+  KIImagePager: 7cbbf13cca167832999ecfea35ce95f794fa62ba
+  M13BadgeView: ba877709e9e0f762bdd7badeb4f64e686b95531a
+  MYBlurIntroductionView: 6caf60805eaa555538aba9e2615820fd6f07cd23
+  Nimble: 372f2a468417de1094af15420e7a380307142cdf
+
+COCOAPODS: 0.33.1
