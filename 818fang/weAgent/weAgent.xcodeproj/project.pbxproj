@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		1862B86C19F10DF900D511DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1862B86B19F10DF900D511DE /* main.m */; };
 		1862B86F19F10DF900D511DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1862B86E19F10DF900D511DE /* AppDelegate.m */; };
-		1862B87219F10DF900D511DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1862B87119F10DF900D511DE /* ViewController.m */; };
-		1862B87519F10DF900D511DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1862B87319F10DF900D511DE /* Main.storyboard */; };
 		1862B87719F10DF900D511DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1862B87619F10DF900D511DE /* Images.xcassets */; };
-		1862B87A19F10DF900D511DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1862B87819F10DF900D511DE /* LaunchScreen.xib */; };
 		1862B88619F10DF900D511DE /* weAgentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1862B88519F10DF900D511DE /* weAgentTests.m */; };
 		1862B9CF19F10EFA00D511DE /* AchievementActiveTabItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 1862B89019F10EF900D511DE /* AchievementActiveTabItem.png */; };
 		1862B9D019F10EFA00D511DE /* AchievementTabItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 1862B89119F10EF900D511DE /* AchievementTabItem.png */; };
@@ -192,11 +189,7 @@
 		1862B86B19F10DF900D511DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1862B86D19F10DF900D511DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1862B86E19F10DF900D511DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1862B87019F10DF900D511DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1862B87119F10DF900D511DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1862B87419F10DF900D511DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1862B87619F10DF900D511DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1862B87919F10DF900D511DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1862B87F19F10DF900D511DE /* weAgentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weAgentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1862B88419F10DF900D511DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1862B88519F10DF900D511DE /* weAgentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weAgentTests.m; sourceTree = "<group>"; };
@@ -540,11 +533,7 @@
 			children = (
 				1862B86D19F10DF900D511DE /* AppDelegate.h */,
 				1862B86E19F10DF900D511DE /* AppDelegate.m */,
-				1862B87019F10DF900D511DE /* ViewController.h */,
-				1862B87119F10DF900D511DE /* ViewController.m */,
-				1862B87319F10DF900D511DE /* Main.storyboard */,
 				1862B87619F10DF900D511DE /* Images.xcassets */,
-				1862B87819F10DF900D511DE /* LaunchScreen.xib */,
 				1862B86919F10DF900D511DE /* Supporting Files */,
 			);
 			path = weAgent;
@@ -672,16 +661,16 @@
 		1862B8DD19F10EF900D511DE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1862B91E19F10EF900D511DE /* RootViewController.h */,
+				1862B91F19F10EF900D511DE /* RootViewController.m */,
+				1862B8FD19F10EF900D511DE /* IntroduceViewController.h */,
+				1862B8FE19F10EF900D511DE /* IntroduceViewController.m */,
 				1862B8DE19F10EF900D511DE /* Account */,
 				1862B8E519F10EF900D511DE /* Achievement */,
 				1862B8E819F10EF900D511DE /* Coustomer */,
 				1862B8F419F10EF900D511DE /* Global */,
-				1862B8FD19F10EF900D511DE /* IntroduceViewController.h */,
-				1862B8FE19F10EF900D511DE /* IntroduceViewController.m */,
 				1862B8FF19F10EF900D511DE /* Mine */,
 				1862B90819F10EF900D511DE /* Radar */,
-				1862B91E19F10EF900D511DE /* RootViewController.h */,
-				1862B91F19F10EF900D511DE /* RootViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1256,13 +1245,11 @@
 				1862BA1619F10EFA00D511DE /* second_house.png in Resources */,
 				1862BA5519F10EFA00D511DE /* CheckMarkWhite.png in Resources */,
 				1862BA0619F10EFA00D511DE /* logo.png in Resources */,
-				1862B87519F10DF900D511DE /* Main.storyboard in Resources */,
 				1862B9D019F10EFA00D511DE /* AchievementTabItem.png in Resources */,
 				1862BA5619F10EFA00D511DE /* ForkImage.png in Resources */,
 				1862BA0419F10EFA00D511DE /* launch.jpg in Resources */,
 				1862B9E219F10EFA00D511DE /* BtnForRentNormal.png in Resources */,
 				1862B9FB19F10EFA00D511DE /* icon_homepage_masageCategory.png in Resources */,
-				1862B87A19F10DF900D511DE /* LaunchScreen.xib in Resources */,
 				1862B9F819F10EFA00D511DE /* icon_deal_timer@2x.png in Resources */,
 				1862BA5919F10EFA00D511DE /* MYCustomPanel.xib in Resources */,
 				1862B9FA19F10EFA00D511DE /* icon_deals_distance@2x.png in Resources */,
@@ -1365,7 +1352,6 @@
 				1862BA6419F10EFA00D511DE /* JSONKit.m in Sources */,
 				1862BA4F19F10EFA00D511DE /* SurnameView.m in Sources */,
 				1862BA2419F10EFA00D511DE /* GlobalNavigationViewController.m in Sources */,
-				1862B87219F10DF900D511DE /* ViewController.m in Sources */,
 				1862BA2119F10EFA00D511DE /* ForRentCustomerTableViewController.m in Sources */,
 				1862BA4419F10EFA00D511DE /* GlobalUIView.m in Sources */,
 				1862BA3819F10EFA00D511DE /* Register.m in Sources */,
@@ -1447,25 +1433,6 @@
 			targetProxy = 1862B88019F10DF900D511DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1862B87319F10DF900D511DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1862B87419F10DF900D511DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1862B87819F10DF900D511DE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1862B87919F10DF900D511DE /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1862B88719F10DF900D511DE /* Debug */ = {
