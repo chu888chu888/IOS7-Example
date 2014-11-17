@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/BEMSimpleLineGraph" "${PODS_ROOT}/Headers/CSLinearLayoutView" "${PODS_ROOT}/Headers/KIImagePager" "${PODS_ROOT}/Headers/M13BadgeView" "${PODS_ROOT}/Headers/MYBlurIntroductionView" "${PODS_ROOT}/Headers/Nimble"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/AFNetworking" -isystem "${PODS_ROOT}/Headers/BEMSimpleLineGraph" -isystem "${PODS_ROOT}/Headers/CSLinearLayoutView" -isystem "${PODS_ROOT}/Headers/KIImagePager" -isystem "${PODS_ROOT}/Headers/M13BadgeView" -isystem "${PODS_ROOT}/Headers/MYBlurIntroductionView" -isystem "${PODS_ROOT}/Headers/Nimble"
+OTHER_LDFLAGS = -ObjC -framework CoreData -framework CoreGraphics -framework Foundation -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration
+PODS_ROOT = ${SRCROOT}/Pods
