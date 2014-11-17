@@ -12,22 +12,34 @@
 	<dict>
 		<key>2454A7C0A4BC2A09472718EB55354F320600B245</key>
 		<string>https://github.com/icanzilb/JSONModel.git</string>
+		<key>DEC6A8E2432F617000A42F84932C35A2A84BD183</key>
+		<string>https://github.com/chu888chu888/IOS7Example.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>JSONModelDemos.xcworkspace</string>
+	<string>demo汇总/JSONModel-master/JSONModelDemos.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2454A7C0A4BC2A09472718EB55354F320600B245</key>
-		<string>..</string>
+		<string>../../../../JSONModel_master</string>
+		<key>DEC6A8E2432F617000A42F84932C35A2A84BD183</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/icanzilb/JSONModel.git</string>
+	<string>https://github.com/chu888chu888/IOS7Example.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2454A7C0A4BC2A09472718EB55354F320600B245</string>
+	<string>DEC6A8E2432F617000A42F84932C35A2A84BD183</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DEC6A8E2432F617000A42F84932C35A2A84BD183</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS7Example</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
