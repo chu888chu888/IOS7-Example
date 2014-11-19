@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC6768661833526000CAA42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6768651833526000CAA42F /* Foundation.framework */; };
+		CC6768681833526000CAA42F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6768671833526000CAA42F /* CoreGraphics.framework */; };
+		CC67686A1833526000CAA42F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6768691833526000CAA42F /* UIKit.framework */; };
+		CC6768701833526100CAA42F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC67686E1833526100CAA42F /* InfoPlist.strings */; };
+		CC6768721833526100CAA42F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6768711833526100CAA42F /* main.m */; };
+		CC6768761833526100CAA42F /* FKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6768751833526100CAA42F /* FKAppDelegate.m */; };
+		CC6768791833526100CAA42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6768771833526100CAA42F /* Main.storyboard */; };
+		CC67687C1833526100CAA42F /* FKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC67687B1833526100CAA42F /* FKViewController.m */; };
+		CC67687E1833526100CAA42F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC67687D1833526100CAA42F /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC6768621833526000CAA42F /* PushTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6768651833526000CAA42F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC6768671833526000CAA42F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC6768691833526000CAA42F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC67686D1833526100CAA42F /* PushTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushTest-Info.plist"; sourceTree = "<group>"; };
+		CC67686F1833526100CAA42F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC6768711833526100CAA42F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC6768731833526100CAA42F /* PushTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushTest-Prefix.pch"; sourceTree = "<group>"; };
+		CC6768741833526100CAA42F /* FKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKAppDelegate.h; sourceTree = "<group>"; };
+		CC6768751833526100CAA42F /* FKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKAppDelegate.m; sourceTree = "<group>"; };
+		CC6768781833526100CAA42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC67687A1833526100CAA42F /* FKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKViewController.h; sourceTree = "<group>"; };
+		CC67687B1833526100CAA42F /* FKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKViewController.m; sourceTree = "<group>"; };
+		CC67687D1833526100CAA42F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC6768841833526100CAA42F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC67689A183352CB00CAA42F /* PushTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PushTest.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC67685F1833526000CAA42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6768681833526000CAA42F /* CoreGraphics.framework in Frameworks */,
+				CC67686A1833526000CAA42F /* UIKit.framework in Frameworks */,
+				CC6768661833526000CAA42F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC6768591833526000CAA42F = {
+			isa = PBXGroup;
+			children = (
+				CC67686B1833526100CAA42F /* PushTest */,
+				CC6768641833526000CAA42F /* Frameworks */,
+				CC6768631833526000CAA42F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6768631833526000CAA42F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6768621833526000CAA42F /* PushTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6768641833526000CAA42F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC6768651833526000CAA42F /* Foundation.framework */,
+				CC6768671833526000CAA42F /* CoreGraphics.framework */,
+				CC6768691833526000CAA42F /* UIKit.framework */,
+				CC6768841833526100CAA42F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC67686B1833526100CAA42F /* PushTest */ = {
+			isa = PBXGroup;
+			children = (
+				CC67689A183352CB00CAA42F /* PushTest.entitlements */,
+				CC6768741833526100CAA42F /* FKAppDelegate.h */,
+				CC6768751833526100CAA42F /* FKAppDelegate.m */,
+				CC6768771833526100CAA42F /* Main.storyboard */,
+				CC67687A1833526100CAA42F /* FKViewController.h */,
+				CC67687B1833526100CAA42F /* FKViewController.m */,
+				CC67687D1833526100CAA42F /* Images.xcassets */,
+				CC67686C1833526100CAA42F /* Supporting Files */,
+			);
+			path = PushTest;
+			sourceTree = "<group>";
+		};
+		CC67686C1833526100CAA42F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC67686D1833526100CAA42F /* PushTest-Info.plist */,
+				CC67686E1833526100CAA42F /* InfoPlist.strings */,
+				CC6768711833526100CAA42F /* main.m */,
+				CC6768731833526100CAA42F /* PushTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6768611833526000CAA42F /* PushTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6768941833526100CAA42F /* Build configuration list for PBXNativeTarget "PushTest" */;
+			buildPhases = (
+				CC67685E1833526000CAA42F /* Sources */,
+				CC67685F1833526000CAA42F /* Frameworks */,
+				CC6768601833526000CAA42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushTest;
+			productName = PushTest;
+			productReference = CC6768621833526000CAA42F /* PushTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC67685A1833526000CAA42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = crazyit.org;
+				TargetAttributes = {
+					CC6768611833526000CAA42F = {
+						DevelopmentTeam = 77UEH936P6;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CC67685D1833526000CAA42F /* Build configuration list for PBXProject "PushTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC6768591833526000CAA42F;
+			productRefGroup = CC6768631833526000CAA42F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC6768611833526000CAA42F /* PushTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC6768601833526000CAA42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC67687E1833526100CAA42F /* Images.xcassets in Resources */,
+				CC6768701833526100CAA42F /* InfoPlist.strings in Resources */,
+				CC6768791833526100CAA42F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC67685E1833526000CAA42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6768721833526100CAA42F /* main.m in Sources */,
+				CC6768761833526100CAA42F /* FKAppDelegate.m in Sources */,
+				CC67687C1833526100CAA42F /* FKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC67686E1833526100CAA42F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC67686F1833526100CAA42F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC6768771833526100CAA42F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6768781833526100CAA42F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC6768921833526100CAA42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC6768931833526100CAA42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC6768951833526100CAA42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = PushTest/PushTest.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushTest/PushTest-Prefix.pch";
+				INFOPLIST_FILE = "PushTest/PushTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC6768961833526100CAA42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = PushTest/PushTest.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushTest/PushTest-Prefix.pch";
+				INFOPLIST_FILE = "PushTest/PushTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC67685D1833526000CAA42F /* Build configuration list for PBXProject "PushTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6768921833526100CAA42F /* Debug */,
+				CC6768931833526100CAA42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6768941833526100CAA42F /* Build configuration list for PBXNativeTarget "PushTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6768951833526100CAA42F /* Debug */,
+				CC6768961833526100CAA42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC67685A1833526000CAA42F /* Project object */;
+}

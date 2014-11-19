@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC67682118332E9300CAA42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC67682018332E9300CAA42F /* Foundation.framework */; };
+		CC67682318332E9300CAA42F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC67682218332E9300CAA42F /* CoreGraphics.framework */; };
+		CC67682518332E9300CAA42F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC67682418332E9300CAA42F /* UIKit.framework */; };
+		CC67682B18332E9300CAA42F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC67682918332E9300CAA42F /* InfoPlist.strings */; };
+		CC67682D18332E9300CAA42F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC67682C18332E9300CAA42F /* main.m */; };
+		CC67683118332E9300CAA42F /* FKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC67683018332E9300CAA42F /* FKAppDelegate.m */; };
+		CC67683418332E9300CAA42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC67683218332E9300CAA42F /* Main.storyboard */; };
+		CC67683718332E9300CAA42F /* FKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC67683618332E9300CAA42F /* FKViewController.m */; };
+		CC67683918332E9300CAA42F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC67683818332E9300CAA42F /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC67681D18332E9300CAA42F /* CloudSettingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudSettingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC67682018332E9300CAA42F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC67682218332E9300CAA42F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC67682418332E9300CAA42F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC67682818332E9300CAA42F /* CloudSettingTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudSettingTest-Info.plist"; sourceTree = "<group>"; };
+		CC67682A18332E9300CAA42F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC67682C18332E9300CAA42F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC67682E18332E9300CAA42F /* CloudSettingTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudSettingTest-Prefix.pch"; sourceTree = "<group>"; };
+		CC67682F18332E9300CAA42F /* FKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKAppDelegate.h; sourceTree = "<group>"; };
+		CC67683018332E9300CAA42F /* FKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKAppDelegate.m; sourceTree = "<group>"; };
+		CC67683318332E9300CAA42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC67683518332E9300CAA42F /* FKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKViewController.h; sourceTree = "<group>"; };
+		CC67683618332E9300CAA42F /* FKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKViewController.m; sourceTree = "<group>"; };
+		CC67683818332E9300CAA42F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC67683F18332E9300CAA42F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC67685518332F8500CAA42F /* CloudSettingTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudSettingTest.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC67681A18332E9300CAA42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC67682318332E9300CAA42F /* CoreGraphics.framework in Frameworks */,
+				CC67682518332E9300CAA42F /* UIKit.framework in Frameworks */,
+				CC67682118332E9300CAA42F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC67681418332E9300CAA42F = {
+			isa = PBXGroup;
+			children = (
+				CC67682618332E9300CAA42F /* CloudSettingTest */,
+				CC67681F18332E9300CAA42F /* Frameworks */,
+				CC67681E18332E9300CAA42F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC67681E18332E9300CAA42F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC67681D18332E9300CAA42F /* CloudSettingTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC67681F18332E9300CAA42F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC67682018332E9300CAA42F /* Foundation.framework */,
+				CC67682218332E9300CAA42F /* CoreGraphics.framework */,
+				CC67682418332E9300CAA42F /* UIKit.framework */,
+				CC67683F18332E9300CAA42F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC67682618332E9300CAA42F /* CloudSettingTest */ = {
+			isa = PBXGroup;
+			children = (
+				CC67685518332F8500CAA42F /* CloudSettingTest.entitlements */,
+				CC67682F18332E9300CAA42F /* FKAppDelegate.h */,
+				CC67683018332E9300CAA42F /* FKAppDelegate.m */,
+				CC67683518332E9300CAA42F /* FKViewController.h */,
+				CC67683618332E9300CAA42F /* FKViewController.m */,
+				CC67683218332E9300CAA42F /* Main.storyboard */,
+				CC67683818332E9300CAA42F /* Images.xcassets */,
+				CC67682718332E9300CAA42F /* Supporting Files */,
+			);
+			path = CloudSettingTest;
+			sourceTree = "<group>";
+		};
+		CC67682718332E9300CAA42F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC67682818332E9300CAA42F /* CloudSettingTest-Info.plist */,
+				CC67682918332E9300CAA42F /* InfoPlist.strings */,
+				CC67682C18332E9300CAA42F /* main.m */,
+				CC67682E18332E9300CAA42F /* CloudSettingTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC67681C18332E9300CAA42F /* CloudSettingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC67684F18332E9300CAA42F /* Build configuration list for PBXNativeTarget "CloudSettingTest" */;
+			buildPhases = (
+				CC67681918332E9300CAA42F /* Sources */,
+				CC67681A18332E9300CAA42F /* Frameworks */,
+				CC67681B18332E9300CAA42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudSettingTest;
+			productName = CloudSettingTest;
+			productReference = CC67681D18332E9300CAA42F /* CloudSettingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC67681518332E9300CAA42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = crazyit.org;
+				TargetAttributes = {
+					CC67681C18332E9300CAA42F = {
+						DevelopmentTeam = 77UEH936P6;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CC67681818332E9300CAA42F /* Build configuration list for PBXProject "CloudSettingTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC67681418332E9300CAA42F;
+			productRefGroup = CC67681E18332E9300CAA42F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC67681C18332E9300CAA42F /* CloudSettingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC67681B18332E9300CAA42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC67683918332E9300CAA42F /* Images.xcassets in Resources */,
+				CC67682B18332E9300CAA42F /* InfoPlist.strings in Resources */,
+				CC67683418332E9300CAA42F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC67681918332E9300CAA42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC67682D18332E9300CAA42F /* main.m in Sources */,
+				CC67683118332E9300CAA42F /* FKAppDelegate.m in Sources */,
+				CC67683718332E9300CAA42F /* FKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC67682918332E9300CAA42F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC67682A18332E9300CAA42F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC67683218332E9300CAA42F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC67683318332E9300CAA42F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC67684D18332E9300CAA42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC67684E18332E9300CAA42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC67685018332E9300CAA42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CloudSettingTest/CloudSettingTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: YONG HUANG (CT4VXA3ZY6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudSettingTest/CloudSettingTest-Prefix.pch";
+				INFOPLIST_FILE = "CloudSettingTest/CloudSettingTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC67685118332E9300CAA42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CloudSettingTest/CloudSettingTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: YONG HUANG (CT4VXA3ZY6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudSettingTest/CloudSettingTest-Prefix.pch";
+				INFOPLIST_FILE = "CloudSettingTest/CloudSettingTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC67681818332E9300CAA42F /* Build configuration list for PBXProject "CloudSettingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC67684D18332E9300CAA42F /* Debug */,
+				CC67684E18332E9300CAA42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC67684F18332E9300CAA42F /* Build configuration list for PBXNativeTarget "CloudSettingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC67685018332E9300CAA42F /* Debug */,
+				CC67685118332E9300CAA42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC67681518332E9300CAA42F /* Project object */;
+}

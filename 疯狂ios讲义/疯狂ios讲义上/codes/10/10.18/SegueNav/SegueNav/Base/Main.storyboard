@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="0QV-PT-Hl0">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller - 作者信息-->
+        <scene sceneID="vLR-Bz-wdd">
+            <objects>
+                <tableViewController id="7bk-Xz-JmQ" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="A18-oU-wQo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection headerTitle="导航菜单" id="x5e-CS-Ihg">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailDisclosureButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="iEo-SL-jm8">
+                                        <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iEo-SL-jm8" id="VeV-sm-P0r">
+                                            <rect key="frame" x="0.0" y="0.0" width="253" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="作者简历" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1W-bT-QUZ">
+                                                    <rect key="frame" x="20" y="6" width="280" height="32"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="32" id="jKB-f0-thn"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <constraints>
+                                            <constraint firstItem="Q1W-bT-QUZ" firstAttribute="centerY" secondItem="iEo-SL-jm8" secondAttribute="centerY" id="3Pu-Dn-a1n"/>
+                                            <constraint firstAttribute="trailing" secondItem="Q1W-bT-QUZ" secondAttribute="trailing" constant="20" id="Unw-4a-SOk"/>
+                                            <constraint firstItem="Q1W-bT-QUZ" firstAttribute="leading" secondItem="iEo-SL-jm8" secondAttribute="leading" constant="20" id="alc-o9-nY8"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="Fix-vC-8ht" kind="push" trigger="accessoryAction" id="Q1a-NC-vHQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailDisclosureButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="BTx-M0-BEJ">
+                                        <rect key="frame" x="0.0" y="130" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BTx-M0-BEJ" id="jQk-zB-6or">
+                                            <rect key="frame" x="0.0" y="0.0" width="253" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="作者图书" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbx-Ag-u9p">
+                                                    <rect key="frame" x="20" y="6" width="280" height="32"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="32" id="nnq-cf-OJo"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <constraints>
+                                            <constraint firstItem="lbx-Ag-u9p" firstAttribute="centerY" secondItem="BTx-M0-BEJ" secondAttribute="centerY" id="J3n-fg-JYs"/>
+                                            <constraint firstItem="lbx-Ag-u9p" firstAttribute="leading" secondItem="BTx-M0-BEJ" secondAttribute="leading" constant="20" id="TCc-yo-D6j"/>
+                                            <constraint firstAttribute="trailing" secondItem="lbx-Ag-u9p" secondAttribute="trailing" constant="20" id="TxW-dE-DlC"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="YnW-ef-Uy3" kind="push" trigger="accessoryAction" id="ml4-GV-nh6"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="作者信息" id="8oE-yW-Ktl">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="QpM-Zr-mnE"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="80k-ML-a9h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-219" y="-354"/>
+        </scene>
+        <!--Book List Controller-->
+        <scene sceneID="Abo-Sb-2pF">
+            <objects>
+                <tableViewController id="YnW-ef-Uy3" customClass="FKBookListController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="auZ-Zm-DDq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="bookCell" textLabel="cdS-Lu-sH3" style="IBUITableViewCellStyleDefault" id="5kP-8h-8Un">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5kP-8h-8Un" id="Abk-ku-QZl">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cdS-Lu-sH3">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="YnW-ef-Uy3" id="Eks-Jt-IBX"/>
+                            <outlet property="delegate" destination="YnW-ef-Uy3" id="ntP-bv-a7q"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="BI7-k0-NOY"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LRm-Ph-nPi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="-5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Yxs-hD-clp">
+            <objects>
+                <viewController id="Fix-vC-8ht" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gDs-MJ-Urp"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z2a-RA-VAa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DP0-Nn-ofM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="国内著名的高端IT技术作家，已出版大量长期畅销著作。其中疯狂Java体系图书都是已经得到广泛的市场认同，并多次重印的畅销图书，并被多所&quot;985&quot; &quot;211&quot;院校选作教材，部分图书已被翻译成繁体中文版、授权到台湾地区。" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="VFP-so-mcZ">
+                                <rect key="frame" x="20" y="76" width="280" height="149"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wFZ-Iq-9og"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D4F-oX-0ab" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="-663"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lW7-sQ-z4O">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="0QV-PT-Hl0" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2nM-Hp-F65">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="7bk-Xz-JmQ" kind="relationship" relationship="rootViewController" id="kgP-HH-DPs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ero-ec-wKj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-642" y="-354"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

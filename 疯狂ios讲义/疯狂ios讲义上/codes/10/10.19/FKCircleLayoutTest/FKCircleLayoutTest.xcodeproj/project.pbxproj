@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCEC43071778243D002996E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEC43061778243D002996E9 /* UIKit.framework */; };
+		CCEC43091778243D002996E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEC43081778243D002996E9 /* Foundation.framework */; };
+		CCEC430B1778243D002996E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEC430A1778243D002996E9 /* CoreGraphics.framework */; };
+		CCEC43111778243D002996E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCEC430F1778243D002996E9 /* InfoPlist.strings */; };
+		CCEC43131778243D002996E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEC43121778243D002996E9 /* main.m */; };
+		CCEC43171778243D002996E9 /* FKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEC43161778243D002996E9 /* FKAppDelegate.m */; };
+		CCEC43201778243D002996E9 /* FKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEC431F1778243D002996E9 /* FKViewController.m */; };
+		CCEC432D177824C4002996E9 /* FKCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEC432C177824C4002996E9 /* FKCellView.xib */; };
+		CCEC433017782531002996E9 /* FKCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEC432F17782531002996E9 /* FKCircleLayout.m */; };
+		CCEC433217782748002996E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEC433117782748002996E9 /* QuartzCore.framework */; };
+		CCEC433617783221002996E9 /* fkit_mdpi.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEC433517783221002996E9 /* fkit_mdpi.png */; };
+		CCEC433817783289002996E9 /* fkit.png in Resources */ = {isa = PBXBuildFile; fileRef = CCEC433717783289002996E9 /* fkit.png */; };
+		CCF7F9EA17F3FD6A005D02F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF7F9E917F3FD6A005D02F1 /* Images.xcassets */; };
+		CCF7F9ED17F3FDA9005D02F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF7F9EB17F3FDA9005D02F1 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCEC43031778243D002996E9 /* FKCircleLayoutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKCircleLayoutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEC43061778243D002996E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCEC43081778243D002996E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCEC430A1778243D002996E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCEC430E1778243D002996E9 /* FKCircleLayoutTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FKCircleLayoutTest-Info.plist"; sourceTree = "<group>"; };
+		CCEC43101778243D002996E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCEC43121778243D002996E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCEC43141778243D002996E9 /* FKCircleLayoutTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FKCircleLayoutTest-Prefix.pch"; sourceTree = "<group>"; };
+		CCEC43151778243D002996E9 /* FKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKAppDelegate.h; sourceTree = "<group>"; };
+		CCEC43161778243D002996E9 /* FKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKAppDelegate.m; sourceTree = "<group>"; };
+		CCEC431E1778243D002996E9 /* FKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKViewController.h; sourceTree = "<group>"; };
+		CCEC431F1778243D002996E9 /* FKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKViewController.m; sourceTree = "<group>"; };
+		CCEC432C177824C4002996E9 /* FKCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FKCellView.xib; sourceTree = "<group>"; };
+		CCEC432E17782531002996E9 /* FKCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKCircleLayout.h; sourceTree = "<group>"; };
+		CCEC432F17782531002996E9 /* FKCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKCircleLayout.m; sourceTree = "<group>"; };
+		CCEC433117782748002996E9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CCEC433517783221002996E9 /* fkit_mdpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fkit_mdpi.png; sourceTree = "<group>"; };
+		CCEC433717783289002996E9 /* fkit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fkit.png; sourceTree = "<group>"; };
+		CCF7F9E917F3FD6A005D02F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCF7F9EC17F3FDA9005D02F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEC43001778243D002996E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEC433217782748002996E9 /* QuartzCore.framework in Frameworks */,
+				CCEC43071778243D002996E9 /* UIKit.framework in Frameworks */,
+				CCEC43091778243D002996E9 /* Foundation.framework in Frameworks */,
+				CCEC430B1778243D002996E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCEC42FA1778243D002996E9 = {
+			isa = PBXGroup;
+			children = (
+				CCEC430C1778243D002996E9 /* FKCircleLayoutTest */,
+				CCEC43051778243D002996E9 /* Frameworks */,
+				CCEC43041778243D002996E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEC43041778243D002996E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC43031778243D002996E9 /* FKCircleLayoutTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCEC43051778243D002996E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC433117782748002996E9 /* QuartzCore.framework */,
+				CCEC43061778243D002996E9 /* UIKit.framework */,
+				CCEC43081778243D002996E9 /* Foundation.framework */,
+				CCEC430A1778243D002996E9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCEC430C1778243D002996E9 /* FKCircleLayoutTest */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC43151778243D002996E9 /* FKAppDelegate.h */,
+				CCEC43161778243D002996E9 /* FKAppDelegate.m */,
+				CCF7F9EB17F3FDA9005D02F1 /* Main.storyboard */,
+				CCEC432C177824C4002996E9 /* FKCellView.xib */,
+				CCEC432E17782531002996E9 /* FKCircleLayout.h */,
+				CCEC432F17782531002996E9 /* FKCircleLayout.m */,
+				CCEC431E1778243D002996E9 /* FKViewController.h */,
+				CCEC431F1778243D002996E9 /* FKViewController.m */,
+				CCF7F9E917F3FD6A005D02F1 /* Images.xcassets */,
+				CCEC430D1778243D002996E9 /* Supporting Files */,
+			);
+			path = FKCircleLayoutTest;
+			sourceTree = "<group>";
+		};
+		CCEC430D1778243D002996E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC433717783289002996E9 /* fkit.png */,
+				CCEC433517783221002996E9 /* fkit_mdpi.png */,
+				CCEC430E1778243D002996E9 /* FKCircleLayoutTest-Info.plist */,
+				CCEC430F1778243D002996E9 /* InfoPlist.strings */,
+				CCEC43121778243D002996E9 /* main.m */,
+				CCEC43141778243D002996E9 /* FKCircleLayoutTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEC43021778243D002996E9 /* FKCircleLayoutTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEC43261778243D002996E9 /* Build configuration list for PBXNativeTarget "FKCircleLayoutTest" */;
+			buildPhases = (
+				CCEC42FF1778243D002996E9 /* Sources */,
+				CCEC43001778243D002996E9 /* Frameworks */,
+				CCEC43011778243D002996E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FKCircleLayoutTest;
+			productName = FKCircleLayoutTest;
+			productReference = CCEC43031778243D002996E9 /* FKCircleLayoutTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEC42FB1778243D002996E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = crazyit.org;
+			};
+			buildConfigurationList = CCEC42FE1778243D002996E9 /* Build configuration list for PBXProject "FKCircleLayoutTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCEC42FA1778243D002996E9;
+			productRefGroup = CCEC43041778243D002996E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEC43021778243D002996E9 /* FKCircleLayoutTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEC43011778243D002996E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF7F9ED17F3FDA9005D02F1 /* Main.storyboard in Resources */,
+				CCEC43111778243D002996E9 /* InfoPlist.strings in Resources */,
+				CCEC432D177824C4002996E9 /* FKCellView.xib in Resources */,
+				CCF7F9EA17F3FD6A005D02F1 /* Images.xcassets in Resources */,
+				CCEC433617783221002996E9 /* fkit_mdpi.png in Resources */,
+				CCEC433817783289002996E9 /* fkit.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEC42FF1778243D002996E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEC43131778243D002996E9 /* main.m in Sources */,
+				CCEC43171778243D002996E9 /* FKAppDelegate.m in Sources */,
+				CCEC43201778243D002996E9 /* FKViewController.m in Sources */,
+				CCEC433017782531002996E9 /* FKCircleLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCEC430F1778243D002996E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEC43101778243D002996E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCF7F9EB17F3FDA9005D02F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF7F9EC17F3FDA9005D02F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCEC43241778243D002996E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCEC43251778243D002996E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCEC43271778243D002996E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FKCircleLayoutTest/FKCircleLayoutTest-Prefix.pch";
+				INFOPLIST_FILE = "FKCircleLayoutTest/FKCircleLayoutTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCEC43281778243D002996E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FKCircleLayoutTest/FKCircleLayoutTest-Prefix.pch";
+				INFOPLIST_FILE = "FKCircleLayoutTest/FKCircleLayoutTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEC42FE1778243D002996E9 /* Build configuration list for PBXProject "FKCircleLayoutTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEC43241778243D002996E9 /* Debug */,
+				CCEC43251778243D002996E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEC43261778243D002996E9 /* Build configuration list for PBXNativeTarget "FKCircleLayoutTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEC43271778243D002996E9 /* Debug */,
+				CCEC43281778243D002996E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCEC42FB1778243D002996E9 /* Project object */;
+}

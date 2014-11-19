@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book id="1">
+		<title>疯狂iOS讲义</title>
+		<author>李刚 编著</author>
+		<remark>基于最新版本的iOS 7</remark>
+	</book>
+	<book id="2">
+		<title>疯狂Java讲义</title>
+		<author>李刚 编著</author>
+		<remark>本书来自作者3年的Java培训经历,凝结了作者近3000个小时的授课经验</remark>
+	</book>
+	<book id="3">
+		<title>轻量级Java EE企业应用实战</title>
+		<author>李刚 编著</author>
+		<remark>本书主要介绍以Spring+Hibernate+Struts2为基础的Java EE应用</remark>
+	</book>
+	<book id="4">
+		<title>疯狂Android讲义</title>
+		<author>李刚 编著</author>
+		<remark>本书第一版长期雄踞各网店、书店Android图书销量排行榜前列</remark>
+	</book>
+</books>
+

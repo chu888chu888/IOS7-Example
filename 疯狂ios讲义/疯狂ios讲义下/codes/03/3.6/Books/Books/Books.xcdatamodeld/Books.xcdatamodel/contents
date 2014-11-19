@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="FKAuthor" representedClassName="FKAuthor" syncable="YES">
+        <attribute name="authorDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="books" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FKBook" inverseName="author" inverseEntity="FKBook" syncable="YES"/>
+    </entity>
+    <entity name="FKBook" representedClassName="FKBook" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publishHouse" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="author" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FKAuthor" inverseName="books" inverseEntity="FKAuthor" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FKAuthor" positionX="-1613" positionY="306" width="128" height="88"/>
+        <element name="FKBook" positionX="-1820" positionY="306" width="128" height="88"/>
+    </elements>
+</model>

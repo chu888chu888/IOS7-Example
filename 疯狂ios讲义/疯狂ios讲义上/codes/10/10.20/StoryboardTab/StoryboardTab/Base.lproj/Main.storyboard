@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vCI-r2-oXd">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ske-MU-VnS">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="vCI-r2-oXd" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="txk-uW-CW1">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="uTo-TG-tBA" kind="relationship" relationship="viewControllers" id="H78-8d-iBq"/>
+                        <segue destination="ffH-yh-Dco" kind="relationship" relationship="viewControllers" id="Gl9-zs-qMU"/>
+                        <segue destination="gSc-Im-eiA" kind="relationship" relationship="viewControllers" id="Uo4-uv-H4r"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n6e-ge-Aaf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-482" y="493"/>
+        </scene>
+        <!--Book List Controller-->
+        <scene sceneID="7j2-H2-YuZ">
+            <objects>
+                <tableViewController id="uTo-TG-tBA" customClass="FKBookListController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Sew-o6-Ros">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="7MM-tX-CG2">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7MM-tX-CG2" id="lk9-sV-kMa">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="uTo-TG-tBA" id="hPp-e5-I0D"/>
+                            <outlet property="delegate" destination="uTo-TG-tBA" id="4jk-tP-P3p"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" badgeValue="热" systemItem="bookmarks" id="SPP-bI-KFf"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rO1-rf-5aR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11" y="187"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SXP-FP-40H">
+            <objects>
+                <viewController id="gSc-Im-eiA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yaW-nW-Wkt"/>
+                        <viewControllerLayoutGuide type="bottom" id="s60-Gm-Eml"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tcv-D0-wfc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="wCe-En-xxU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xCg-Hh-Cz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-325" y="1080"/>
+        </scene>
+        <!--View Controller - 作者介绍-->
+        <scene sceneID="t4m-aG-S5N">
+            <objects>
+                <viewController id="ffH-yh-Dco" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oeR-TP-6CC"/>
+                        <viewControllerLayoutGuide type="bottom" id="pmI-4K-W1A"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="bp3-xp-g2C">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sUR-dp-Hha">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UT4-bG-t7G">
+                                        <rect key="frame" x="0.0" y="100" width="320" height="612"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="700" id="8qg-JW-20M"/>
+                                        </constraints>
+                                        <string key="text">      从事10多年软件开发，现任疯狂软件教育中心总监，疯狂Java实训营创始人，疯狂Java体系原创图书作者。
+      51CTO专家门诊特邀嘉宾。
+      曾任广州电信、广东龙泉科技等公司的技术培训导师。曾兼任广东技术师范学院计算机科学系的兼职副教授。
+      培训的学生已在华为、IBM、阿里软件、立信、普信、网易、电信盈科等公司就职。
+      国内著名的高端IT技术作家，已出版《疯狂Java讲义》、《疯狂Android讲义》、《轻量级Java EE企业应用实战》、《疯狂Ajax讲义》、《疯狂XML讲义》、《经典Java EE企业应用实战》、《Struts 2.x 权威指南》、《疯狂HTML 5/CSS3/JavaScript 讲义》等著作。其中疯狂Java体系图书都是已经得到广泛的市场认同，并多次重印的畅销图书，并被多所"985" "211"院校选作教材，部分图书已被翻译成繁体中文版、授权到台湾地区。</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="lee.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rNB-1J-qhy">
+                                        <rect key="frame" x="49" y="0.0" width="222" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="7dA-Eq-dNz"/>
+                                            <constraint firstAttribute="width" constant="222" id="fWr-pG-hrM"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="rNB-1J-qhy" firstAttribute="top" secondItem="sUR-dp-Hha" secondAttribute="top" id="4q6-Pu-paT"/>
+                                    <constraint firstItem="UT4-bG-t7G" firstAttribute="leading" secondItem="sUR-dp-Hha" secondAttribute="leading" id="ARM-X2-htD"/>
+                                    <constraint firstItem="rNB-1J-qhy" firstAttribute="centerX" secondItem="sUR-dp-Hha" secondAttribute="centerX" id="NFI-7D-ahi"/>
+                                    <constraint firstItem="UT4-bG-t7G" firstAttribute="top" secondItem="sUR-dp-Hha" secondAttribute="top" constant="100" id="QNr-Ww-hfg"/>
+                                    <constraint firstItem="UT4-bG-t7G" firstAttribute="centerX" secondItem="rNB-1J-qhy" secondAttribute="centerX" id="hUz-M7-rrD"/>
+                                    <constraint firstAttribute="bottom" secondItem="UT4-bG-t7G" secondAttribute="bottom" constant="-252" id="pKb-3C-1KC"/>
+                                    <constraint firstItem="UT4-bG-t7G" firstAttribute="trailing" secondItem="sUR-dp-Hha" secondAttribute="trailing" id="ums-1K-Oji"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sUR-dp-Hha" firstAttribute="top" secondItem="bp3-xp-g2C" secondAttribute="top" id="2pv-sL-g7c"/>
+                            <constraint firstItem="sUR-dp-Hha" firstAttribute="trailing" secondItem="bp3-xp-g2C" secondAttribute="trailing" id="4Dh-4E-x7s"/>
+                            <constraint firstItem="sUR-dp-Hha" firstAttribute="leading" secondItem="bp3-xp-g2C" secondAttribute="leading" id="Clc-Pb-Lvw"/>
+                            <constraint firstItem="sUR-dp-Hha" firstAttribute="bottom" secondItem="bp3-xp-g2C" secondAttribute="bottom" id="seH-o7-U0i"/>
+                        </constraints>
+                        <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                        <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="作者介绍" image="user.gif" badgeValue="20" id="GHs-DT-QXf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tvs-JX-Wfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11" y="776"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lee.jpg" width="80" height="80"/>
+        <image name="user.gif" width="32" height="32"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

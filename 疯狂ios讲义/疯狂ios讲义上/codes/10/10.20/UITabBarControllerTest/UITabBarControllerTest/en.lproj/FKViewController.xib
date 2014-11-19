@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FKViewController">
+            <connections>
+                <outlet property="view" destination="6" id="7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="36">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                            <rect key="frame" x="0.0" y="100" width="320" height="700"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="700" id="63"/>
+                            </constraints>
+                            <string key="text">      从事10多年软件开发，现任疯狂软件教育中心总监，疯狂Java实训营创始人，疯狂Java体系原创图书作者。
+      51CTO专家门诊特邀嘉宾。
+      曾任广州电信、广东龙泉科技等公司的技术培训导师。曾兼任广东技术师范学院计算机科学系的兼职副教授。
+      培训的学生已在华为、IBM、阿里软件、立信、普信、网易、电信盈科等公司就职。
+      国内著名的高端IT技术作家，已出版《疯狂Java讲义》、《疯狂Android讲义》、《轻量级Java EE企业应用实战》、《疯狂Ajax讲义》、《疯狂XML讲义》、《经典Java EE企业应用实战》、《Struts 2.x 权威指南》、《疯狂HTML 5/CSS3/JavaScript 讲义》等著作。其中疯狂Java体系图书都是已经得到广泛的市场认同，并多次重印的畅销图书，并被多所"985" "211"院校选作教材，部分图书已被翻译成繁体中文版、授权到台湾地区。</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="lee.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="23">
+                            <rect key="frame" x="49" y="0.0" width="222" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="222" id="41"/>
+                                <constraint firstAttribute="height" constant="100" id="42"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="23" firstAttribute="centerX" secondItem="36" secondAttribute="centerX" id="46"/>
+                        <constraint firstItem="23" firstAttribute="top" secondItem="36" secondAttribute="top" id="47"/>
+                        <constraint firstItem="8" firstAttribute="leading" secondItem="36" secondAttribute="leading" id="50"/>
+                        <constraint firstItem="8" firstAttribute="centerX" secondItem="23" secondAttribute="centerX" id="51"/>
+                        <constraint firstItem="8" firstAttribute="trailing" secondItem="36" secondAttribute="trailing" id="52"/>
+                        <constraint firstItem="8" firstAttribute="top" secondItem="36" secondAttribute="top" constant="100" id="58"/>
+                        <constraint firstAttribute="bottom" secondItem="8" secondAttribute="bottom" constant="-252" id="64"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="36" firstAttribute="trailing" secondItem="6" secondAttribute="trailing" id="37"/>
+                <constraint firstItem="36" firstAttribute="bottom" secondItem="6" secondAttribute="bottom" id="38"/>
+                <constraint firstItem="36" firstAttribute="top" secondItem="6" secondAttribute="top" id="39"/>
+                <constraint firstItem="36" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="40"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lee.jpg" width="80" height="80"/>
+    </resources>
+</document>

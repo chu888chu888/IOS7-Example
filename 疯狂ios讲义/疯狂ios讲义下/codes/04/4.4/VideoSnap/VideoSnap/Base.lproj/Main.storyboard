@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="FKViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="De3-SM-hv4"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Uo-dm-Q4X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="6aZ-au-Bvx">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6aZ-au-Bvx" firstAttribute="top" secondItem="3" secondAttribute="top" id="4fJ-lY-dMt"/>
+                            <constraint firstItem="6aZ-au-Bvx" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" id="Ecz-j1-cQu"/>
+                            <constraint firstItem="6aZ-au-Bvx" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="Zbv-C7-hRa"/>
+                            <constraint firstItem="6aZ-au-Bvx" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" id="c20-5d-fpa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="iv" destination="6aZ-au-Bvx" id="snH-iY-L6a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

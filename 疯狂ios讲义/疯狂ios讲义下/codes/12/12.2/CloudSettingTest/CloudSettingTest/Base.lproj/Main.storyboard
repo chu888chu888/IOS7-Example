@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="N46-Sn-YlK">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="L0w-sd-D7L">
+            <objects>
+                <viewController id="N46-Sn-YlK" customClass="FKViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mPm-T3-DY5"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xj6-84-Ayh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2ua-Vf-Oyb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="玩家名：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adj-te-h8A">
+                                <rect key="frame" x="20" y="48" width="140" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="QcR-9Q-qlh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="密码：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJV-ov-nZW">
+                                <rect key="frame" x="20" y="85" width="140" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="WHa-38-aRR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="是否打开音乐：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rvf-GS-SLS">
+                                <rect key="frame" x="20" y="122" width="140" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Nnu-vc-A1p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="游戏速度：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chI-rW-x6g">
+                                <rect key="frame" x="20" y="159" width="140" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="nO7-4w-7Gw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WEu-Bf-8fX">
+                                <rect key="frame" x="18" y="196" width="284" height="34"/>
+                                <connections>
+                                    <action selector="speedChanged:" destination="N46-Sn-YlK" eventType="valueChanged" id="qVP-ze-I16"/>
+                                </connections>
+                            </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ney-rb-hou">
+                                <rect key="frame" x="251" y="123" width="51" height="31"/>
+                                <connections>
+                                    <action selector="musicChanged:" destination="N46-Sn-YlK" eventType="valueChanged" id="hjP-ca-VFV"/>
+                                </connections>
+                            </switch>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mDd-M9-kvH">
+                                <rect key="frame" x="168" y="48" width="132" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V6O-SF-4Qa">
+                                <rect key="frame" x="168" y="85" width="132" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EJV-ov-nZW" firstAttribute="leading" secondItem="2ua-Vf-Oyb" secondAttribute="leading" constant="20" symbolic="YES" id="1AD-VM-hLy"/>
+                            <constraint firstItem="EJV-ov-nZW" firstAttribute="top" secondItem="adj-te-h8A" secondAttribute="bottom" constant="8" symbolic="YES" id="Ay4-p3-qd0"/>
+                            <constraint firstItem="adj-te-h8A" firstAttribute="top" secondItem="2ua-Vf-Oyb" secondAttribute="top" constant="48" id="CGQ-37-NK1"/>
+                            <constraint firstItem="chI-rW-x6g" firstAttribute="leading" secondItem="2ua-Vf-Oyb" secondAttribute="leading" constant="20" symbolic="YES" id="E9y-Eu-vD9"/>
+                            <constraint firstItem="Rvf-GS-SLS" firstAttribute="top" secondItem="EJV-ov-nZW" secondAttribute="bottom" constant="8" symbolic="YES" id="Esr-rv-Hcn"/>
+                            <constraint firstItem="Rvf-GS-SLS" firstAttribute="trailing" secondItem="EJV-ov-nZW" secondAttribute="trailing" id="HgO-NV-3BQ"/>
+                            <constraint firstItem="chI-rW-x6g" firstAttribute="trailing" secondItem="Rvf-GS-SLS" secondAttribute="trailing" id="Iih-6Y-i6K"/>
+                            <constraint firstItem="EJV-ov-nZW" firstAttribute="trailing" secondItem="adj-te-h8A" secondAttribute="trailing" id="bKC-DC-8sI"/>
+                            <constraint firstItem="chI-rW-x6g" firstAttribute="top" secondItem="Rvf-GS-SLS" secondAttribute="bottom" constant="8" symbolic="YES" id="gkN-34-gX1"/>
+                            <constraint firstItem="adj-te-h8A" firstAttribute="leading" secondItem="2ua-Vf-Oyb" secondAttribute="leading" constant="20" symbolic="YES" id="hSj-C7-blN"/>
+                            <constraint firstItem="Rvf-GS-SLS" firstAttribute="leading" secondItem="2ua-Vf-Oyb" secondAttribute="leading" constant="20" symbolic="YES" id="kkG-bj-ag1"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="musicSwitch" destination="Ney-rb-hou" id="KPS-tr-kb4"/>
+                        <outlet property="nameField" destination="mDd-M9-kvH" id="0su-gJ-LW5"/>
+                        <outlet property="passField" destination="V6O-SF-4Qa" id="G5o-Zw-hAf"/>
+                        <outlet property="speedSlider" destination="WEu-Bf-8fX" id="7fC-uQ-Evo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5U6-Lz-3oW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-67" y="-412"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

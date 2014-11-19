@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC00DFC717F4495B00BCA64C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC00DFC617F4495B00BCA64C /* Images.xcassets */; };
+		CC00DFCE17F449A500BCA64C /* ajax.png in Resources */ = {isa = PBXBuildFile; fileRef = CC00DFC917F449A500BCA64C /* ajax.png */; };
+		CC00DFCF17F449A500BCA64C /* android.png in Resources */ = {isa = PBXBuildFile; fileRef = CC00DFCA17F449A500BCA64C /* android.png */; };
+		CC00DFD017F449A500BCA64C /* html.png in Resources */ = {isa = PBXBuildFile; fileRef = CC00DFCB17F449A500BCA64C /* html.png */; };
+		CC00DFD117F449A500BCA64C /* javaee.png in Resources */ = {isa = PBXBuildFile; fileRef = CC00DFCC17F449A500BCA64C /* javaee.png */; };
+		CC00DFD217F449A500BCA64C /* xml.png in Resources */ = {isa = PBXBuildFile; fileRef = CC00DFCD17F449A500BCA64C /* xml.png */; };
+		CC00E01D17F44C6800BCA64C /* FKDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC00E01C17F44C6800BCA64C /* FKDetailViewController.xib */; };
+		CC1758E31780621F00CC40CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1758E21780621F00CC40CD /* UIKit.framework */; };
+		CC1758E51780621F00CC40CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1758E41780621F00CC40CD /* Foundation.framework */; };
+		CC1758E71780621F00CC40CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1758E61780621F00CC40CD /* CoreGraphics.framework */; };
+		CC1758ED1780621F00CC40CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC1758EB1780621F00CC40CD /* InfoPlist.strings */; };
+		CC1758EF1780621F00CC40CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1758EE1780621F00CC40CD /* main.m */; };
+		CC1758F31780621F00CC40CD /* FKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1758F21780621F00CC40CD /* FKAppDelegate.m */; };
+		CC1759091780659D00CC40CD /* FKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1759061780659D00CC40CD /* FKDetailViewController.m */; };
+		CC17590A1780659D00CC40CD /* FKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1759081780659D00CC40CD /* FKMasterViewController.m */; };
+		CC17594417806E7F00CC40CD /* FKBookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC17594317806E7F00CC40CD /* FKBookListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC00DFC617F4495B00BCA64C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC00DFC917F449A500BCA64C /* ajax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ajax.png; sourceTree = "<group>"; };
+		CC00DFCA17F449A500BCA64C /* android.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android.png; sourceTree = "<group>"; };
+		CC00DFCB17F449A500BCA64C /* html.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = html.png; sourceTree = "<group>"; };
+		CC00DFCC17F449A500BCA64C /* javaee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = javaee.png; sourceTree = "<group>"; };
+		CC00DFCD17F449A500BCA64C /* xml.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xml.png; sourceTree = "<group>"; };
+		CC00E01C17F44C6800BCA64C /* FKDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FKDetailViewController.xib; sourceTree = "<group>"; };
+		CC1758DF1780621F00CC40CD /* UISplitViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISplitViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1758E21780621F00CC40CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC1758E41780621F00CC40CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC1758E61780621F00CC40CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC1758EA1780621F00CC40CD /* UISplitViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UISplitViewTest-Info.plist"; sourceTree = "<group>"; };
+		CC1758EC1780621F00CC40CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC1758EE1780621F00CC40CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC1758F01780621F00CC40CD /* UISplitViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISplitViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		CC1758F11780621F00CC40CD /* FKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKAppDelegate.h; sourceTree = "<group>"; };
+		CC1758F21780621F00CC40CD /* FKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKAppDelegate.m; sourceTree = "<group>"; };
+		CC1759051780659D00CC40CD /* FKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKDetailViewController.h; sourceTree = "<group>"; };
+		CC1759061780659D00CC40CD /* FKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKDetailViewController.m; sourceTree = "<group>"; };
+		CC1759071780659D00CC40CD /* FKMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKMasterViewController.h; sourceTree = "<group>"; };
+		CC1759081780659D00CC40CD /* FKMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKMasterViewController.m; sourceTree = "<group>"; };
+		CC17594217806E7F00CC40CD /* FKBookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKBookListViewController.h; sourceTree = "<group>"; };
+		CC17594317806E7F00CC40CD /* FKBookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKBookListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC1758DC1780621F00CC40CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1758E31780621F00CC40CD /* UIKit.framework in Frameworks */,
+				CC1758E51780621F00CC40CD /* Foundation.framework in Frameworks */,
+				CC1758E71780621F00CC40CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC00DFC817F449A500BCA64C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CC00DFC917F449A500BCA64C /* ajax.png */,
+				CC00DFCA17F449A500BCA64C /* android.png */,
+				CC00DFCB17F449A500BCA64C /* html.png */,
+				CC00DFCC17F449A500BCA64C /* javaee.png */,
+				CC00DFCD17F449A500BCA64C /* xml.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		CC1758D61780621F00CC40CD = {
+			isa = PBXGroup;
+			children = (
+				CC1758E81780621F00CC40CD /* UISplitViewTest */,
+				CC1758E11780621F00CC40CD /* Frameworks */,
+				CC1758E01780621F00CC40CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC1758E01780621F00CC40CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1758DF1780621F00CC40CD /* UISplitViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1758E11780621F00CC40CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC1758E21780621F00CC40CD /* UIKit.framework */,
+				CC1758E41780621F00CC40CD /* Foundation.framework */,
+				CC1758E61780621F00CC40CD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC1758E81780621F00CC40CD /* UISplitViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				CC1758F11780621F00CC40CD /* FKAppDelegate.h */,
+				CC1758F21780621F00CC40CD /* FKAppDelegate.m */,
+				CC17594217806E7F00CC40CD /* FKBookListViewController.h */,
+				CC17594317806E7F00CC40CD /* FKBookListViewController.m */,
+				CC1759051780659D00CC40CD /* FKDetailViewController.h */,
+				CC1759061780659D00CC40CD /* FKDetailViewController.m */,
+				CC1759071780659D00CC40CD /* FKMasterViewController.h */,
+				CC1759081780659D00CC40CD /* FKMasterViewController.m */,
+				CC00E01C17F44C6800BCA64C /* FKDetailViewController.xib */,
+				CC00DFC617F4495B00BCA64C /* Images.xcassets */,
+				CC1758E91780621F00CC40CD /* Supporting Files */,
+			);
+			path = UISplitViewTest;
+			sourceTree = "<group>";
+		};
+		CC1758E91780621F00CC40CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC00DFC817F449A500BCA64C /* images */,
+				CC1758EA1780621F00CC40CD /* UISplitViewTest-Info.plist */,
+				CC1758EB1780621F00CC40CD /* InfoPlist.strings */,
+				CC1758EE1780621F00CC40CD /* main.m */,
+				CC1758F01780621F00CC40CD /* UISplitViewTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC1758DE1780621F00CC40CD /* UISplitViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1759021780621F00CC40CD /* Build configuration list for PBXNativeTarget "UISplitViewTest" */;
+			buildPhases = (
+				CC1758DB1780621F00CC40CD /* Sources */,
+				CC1758DC1780621F00CC40CD /* Frameworks */,
+				CC1758DD1780621F00CC40CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISplitViewTest;
+			productName = UISplitViewTest;
+			productReference = CC1758DF1780621F00CC40CD /* UISplitViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1758D71780621F00CC40CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = crazyit.org;
+			};
+			buildConfigurationList = CC1758DA1780621F00CC40CD /* Build configuration list for PBXProject "UISplitViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC1758D61780621F00CC40CD;
+			productRefGroup = CC1758E01780621F00CC40CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC1758DE1780621F00CC40CD /* UISplitViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC1758DD1780621F00CC40CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1758ED1780621F00CC40CD /* InfoPlist.strings in Resources */,
+				CC00DFC717F4495B00BCA64C /* Images.xcassets in Resources */,
+				CC00DFD017F449A500BCA64C /* html.png in Resources */,
+				CC00DFD217F449A500BCA64C /* xml.png in Resources */,
+				CC00DFD117F449A500BCA64C /* javaee.png in Resources */,
+				CC00DFCF17F449A500BCA64C /* android.png in Resources */,
+				CC00DFCE17F449A500BCA64C /* ajax.png in Resources */,
+				CC00E01D17F44C6800BCA64C /* FKDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1758DB1780621F00CC40CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1758EF1780621F00CC40CD /* main.m in Sources */,
+				CC1758F31780621F00CC40CD /* FKAppDelegate.m in Sources */,
+				CC1759091780659D00CC40CD /* FKDetailViewController.m in Sources */,
+				CC17590A1780659D00CC40CD /* FKMasterViewController.m in Sources */,
+				CC17594417806E7F00CC40CD /* FKBookListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC1758EB1780621F00CC40CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1758EC1780621F00CC40CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC1759001780621F00CC40CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CC1759011780621F00CC40CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC1759031780621F00CC40CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISplitViewTest/UISplitViewTest-Prefix.pch";
+				INFOPLIST_FILE = "UISplitViewTest/UISplitViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC1759041780621F00CC40CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISplitViewTest/UISplitViewTest-Prefix.pch";
+				INFOPLIST_FILE = "UISplitViewTest/UISplitViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1758DA1780621F00CC40CD /* Build configuration list for PBXProject "UISplitViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1759001780621F00CC40CD /* Debug */,
+				CC1759011780621F00CC40CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1759021780621F00CC40CD /* Build configuration list for PBXNativeTarget "UISplitViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1759031780621F00CC40CD /* Debug */,
+				CC1759041780621F00CC40CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC1758D71780621F00CC40CD /* Project object */;
+}

@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC6AEF6C17F3140A0001096D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6AEF6B17F3140A0001096D /* Images.xcassets */; };
+		CC6AEF6F17F3143E0001096D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6AEF6D17F3143E0001096D /* Main.storyboard */; };
+		CCE5EC3117749F2E0052C5E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE5EC3017749F2E0052C5E4 /* UIKit.framework */; };
+		CCE5EC3317749F2E0052C5E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE5EC3217749F2E0052C5E4 /* Foundation.framework */; };
+		CCE5EC3517749F2E0052C5E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE5EC3417749F2E0052C5E4 /* CoreGraphics.framework */; };
+		CCE5EC3B17749F2E0052C5E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCE5EC3917749F2E0052C5E4 /* InfoPlist.strings */; };
+		CCE5EC3D17749F2E0052C5E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5EC3C17749F2E0052C5E4 /* main.m */; };
+		CCE5EC4117749F2E0052C5E4 /* FKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5EC4017749F2E0052C5E4 /* FKAppDelegate.m */; };
+		CCE5EC4A17749F2E0052C5E4 /* FKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE5EC4917749F2E0052C5E4 /* FKViewController.m */; };
+		CCE5EC8C1775EAD30052C5E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE5EC8B1775EAD30052C5E4 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC6AEF6B17F3140A0001096D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC6AEF6E17F3143E0001096D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCE5EC2D17749F2E0052C5E4 /* UISearchDisplayControllerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISearchDisplayControllerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE5EC3017749F2E0052C5E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCE5EC3217749F2E0052C5E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCE5EC3417749F2E0052C5E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCE5EC3817749F2E0052C5E4 /* UISearchDisplayControllerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UISearchDisplayControllerTest-Info.plist"; sourceTree = "<group>"; };
+		CCE5EC3A17749F2E0052C5E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCE5EC3C17749F2E0052C5E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCE5EC3E17749F2E0052C5E4 /* UISearchDisplayControllerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISearchDisplayControllerTest-Prefix.pch"; sourceTree = "<group>"; };
+		CCE5EC3F17749F2E0052C5E4 /* FKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKAppDelegate.h; sourceTree = "<group>"; };
+		CCE5EC4017749F2E0052C5E4 /* FKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKAppDelegate.m; sourceTree = "<group>"; };
+		CCE5EC4817749F2E0052C5E4 /* FKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKViewController.h; sourceTree = "<group>"; };
+		CCE5EC4917749F2E0052C5E4 /* FKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKViewController.m; sourceTree = "<group>"; };
+		CCE5EC8B1775EAD30052C5E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCE5EC2A17749F2E0052C5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE5EC8C1775EAD30052C5E4 /* QuartzCore.framework in Frameworks */,
+				CCE5EC3117749F2E0052C5E4 /* UIKit.framework in Frameworks */,
+				CCE5EC3317749F2E0052C5E4 /* Foundation.framework in Frameworks */,
+				CCE5EC3517749F2E0052C5E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCE5EC2417749F2E0052C5E4 = {
+			isa = PBXGroup;
+			children = (
+				CCE5EC3617749F2E0052C5E4 /* UISearchDisplayControllerTest */,
+				CCE5EC2F17749F2E0052C5E4 /* Frameworks */,
+				CCE5EC2E17749F2E0052C5E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCE5EC2E17749F2E0052C5E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCE5EC2D17749F2E0052C5E4 /* UISearchDisplayControllerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCE5EC2F17749F2E0052C5E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE5EC8B1775EAD30052C5E4 /* QuartzCore.framework */,
+				CCE5EC3017749F2E0052C5E4 /* UIKit.framework */,
+				CCE5EC3217749F2E0052C5E4 /* Foundation.framework */,
+				CCE5EC3417749F2E0052C5E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCE5EC3617749F2E0052C5E4 /* UISearchDisplayControllerTest */ = {
+			isa = PBXGroup;
+			children = (
+				CC6AEF6D17F3143E0001096D /* Main.storyboard */,
+				CCE5EC3F17749F2E0052C5E4 /* FKAppDelegate.h */,
+				CCE5EC4017749F2E0052C5E4 /* FKAppDelegate.m */,
+				CCE5EC4817749F2E0052C5E4 /* FKViewController.h */,
+				CCE5EC4917749F2E0052C5E4 /* FKViewController.m */,
+				CC6AEF6B17F3140A0001096D /* Images.xcassets */,
+				CCE5EC3717749F2E0052C5E4 /* Supporting Files */,
+			);
+			path = UISearchDisplayControllerTest;
+			sourceTree = "<group>";
+		};
+		CCE5EC3717749F2E0052C5E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE5EC3817749F2E0052C5E4 /* UISearchDisplayControllerTest-Info.plist */,
+				CCE5EC3917749F2E0052C5E4 /* InfoPlist.strings */,
+				CCE5EC3C17749F2E0052C5E4 /* main.m */,
+				CCE5EC3E17749F2E0052C5E4 /* UISearchDisplayControllerTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCE5EC2C17749F2E0052C5E4 /* UISearchDisplayControllerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE5EC5017749F2E0052C5E4 /* Build configuration list for PBXNativeTarget "UISearchDisplayControllerTest" */;
+			buildPhases = (
+				CCE5EC2917749F2E0052C5E4 /* Sources */,
+				CCE5EC2A17749F2E0052C5E4 /* Frameworks */,
+				CCE5EC2B17749F2E0052C5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISearchDisplayControllerTest;
+			productName = UISearchDisplayControllerTest;
+			productReference = CCE5EC2D17749F2E0052C5E4 /* UISearchDisplayControllerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCE5EC2517749F2E0052C5E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = crazyit.org;
+			};
+			buildConfigurationList = CCE5EC2817749F2E0052C5E4 /* Build configuration list for PBXProject "UISearchDisplayControllerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCE5EC2417749F2E0052C5E4;
+			productRefGroup = CCE5EC2E17749F2E0052C5E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCE5EC2C17749F2E0052C5E4 /* UISearchDisplayControllerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCE5EC2B17749F2E0052C5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6AEF6C17F3140A0001096D /* Images.xcassets in Resources */,
+				CCE5EC3B17749F2E0052C5E4 /* InfoPlist.strings in Resources */,
+				CC6AEF6F17F3143E0001096D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCE5EC2917749F2E0052C5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE5EC3D17749F2E0052C5E4 /* main.m in Sources */,
+				CCE5EC4117749F2E0052C5E4 /* FKAppDelegate.m in Sources */,
+				CCE5EC4A17749F2E0052C5E4 /* FKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC6AEF6D17F3143E0001096D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6AEF6E17F3143E0001096D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCE5EC3917749F2E0052C5E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE5EC3A17749F2E0052C5E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCE5EC4E17749F2E0052C5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCE5EC4F17749F2E0052C5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCE5EC5117749F2E0052C5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISearchDisplayControllerTest/UISearchDisplayControllerTest-Prefix.pch";
+				INFOPLIST_FILE = "UISearchDisplayControllerTest/UISearchDisplayControllerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCE5EC5217749F2E0052C5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISearchDisplayControllerTest/UISearchDisplayControllerTest-Prefix.pch";
+				INFOPLIST_FILE = "UISearchDisplayControllerTest/UISearchDisplayControllerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCE5EC2817749F2E0052C5E4 /* Build configuration list for PBXProject "UISearchDisplayControllerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE5EC4E17749F2E0052C5E4 /* Debug */,
+				CCE5EC4F17749F2E0052C5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCE5EC5017749F2E0052C5E4 /* Build configuration list for PBXNativeTarget "UISearchDisplayControllerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE5EC5117749F2E0052C5E4 /* Debug */,
+				CCE5EC5217749F2E0052C5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCE5EC2517749F2E0052C5E4 /* Project object */;
+}

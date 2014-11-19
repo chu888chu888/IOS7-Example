@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="b5d-vI-4fh">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Xiq-ha-pVz">
+            <objects>
+                <viewController id="b5d-vI-4fh" customClass="FKViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qTJ-3g-Aky"/>
+                        <viewControllerLayoutGuide type="bottom" id="MM5-xR-zRS"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ilc-ud-Exp" customClass="FKDrawView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="aql-Lc-YAp">
+                                <rect key="frame" x="20" y="20" width="280" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="红"/>
+                                    <segment title="绿"/>
+                                    <segment title="蓝"/>
+                                    <segment title="黄"/>
+                                    <segment title="紫"/>
+                                    <segment title="青"/>
+                                    <segment title="黑"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeColor:" destination="b5d-vI-4fh" eventType="valueChanged" id="i0Z-Zn-Cu1"/>
+                                </connections>
+                            </segmentedControl>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="if8-8c-Lcv">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="qfY-s5-FNP"/>
+                                    <barButtonItem style="plain" id="l89-w9-BRs">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="bBW-Yh-9AE">
+                                            <rect key="frame" x="3" y="6" width="314" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="直线"/>
+                                                <segment title="矩形"/>
+                                                <segment title="椭圆"/>
+                                                <segment title="圆角矩形"/>
+                                                <segment title="铅笔"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="changeShape:" destination="b5d-vI-4fh" eventType="valueChanged" id="Of0-ij-Efa"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="HXM-ei-pkQ"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="if8-8c-Lcv" firstAttribute="leading" secondItem="ilc-ud-Exp" secondAttribute="leading" id="AVP-so-Hga"/>
+                            <constraint firstAttribute="trailing" secondItem="aql-Lc-YAp" secondAttribute="trailing" constant="20" symbolic="YES" id="YPP-pz-Bwt"/>
+                            <constraint firstItem="if8-8c-Lcv" firstAttribute="trailing" secondItem="ilc-ud-Exp" secondAttribute="trailing" id="baM-aB-LgX"/>
+                            <constraint firstItem="aql-Lc-YAp" firstAttribute="top" secondItem="ilc-ud-Exp" secondAttribute="top" constant="20" id="buX-n4-GJe"/>
+                            <constraint firstItem="aql-Lc-YAp" firstAttribute="leading" secondItem="ilc-ud-Exp" secondAttribute="leading" constant="20" symbolic="YES" id="l0d-Eh-X89"/>
+                            <constraint firstItem="if8-8c-Lcv" firstAttribute="bottom" secondItem="ilc-ud-Exp" secondAttribute="bottom" id="mZ0-qT-xiy"/>
+                        </constraints>
+                        <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                        <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Or-GV-Nz7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="78" y="-276"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

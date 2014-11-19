@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC37015917B1F32700AD3EF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC37015817B1F32700AD3EF4 /* UIKit.framework */; };
+		CC37015B17B1F32700AD3EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC37015A17B1F32700AD3EF4 /* Foundation.framework */; };
+		CC37015D17B1F32700AD3EF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC37015C17B1F32700AD3EF4 /* CoreGraphics.framework */; };
+		CC37016317B1F32700AD3EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC37016117B1F32700AD3EF4 /* InfoPlist.strings */; };
+		CC37016517B1F32700AD3EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37016417B1F32700AD3EF4 /* main.m */; };
+		CC37016917B1F32700AD3EF4 /* FKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37016817B1F32700AD3EF4 /* FKAppDelegate.m */; };
+		CC37017517B1F32700AD3EF4 /* FKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37017417B1F32700AD3EF4 /* FKViewController.m */; };
+		CC37017E17B1F43D00AD3EF4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC37017D17B1F43D00AD3EF4 /* AudioToolbox.framework */; };
+		CC37018017B1F46400AD3EF4 /* crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC37017F17B1F46400AD3EF4 /* crash.wav */; };
+		CCBEECF917F68A8800F41BDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBEECF817F68A8800F41BDA /* Images.xcassets */; };
+		CCBEECFC17F68A9700F41BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBEECFA17F68A9700F41BDA /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC37015517B1F32700AD3EF4 /* SystemSoundTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemSoundTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC37015817B1F32700AD3EF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC37015A17B1F32700AD3EF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC37015C17B1F32700AD3EF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC37016017B1F32700AD3EF4 /* SystemSoundTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SystemSoundTest-Info.plist"; sourceTree = "<group>"; };
+		CC37016217B1F32700AD3EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC37016417B1F32700AD3EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC37016617B1F32700AD3EF4 /* SystemSoundTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SystemSoundTest-Prefix.pch"; sourceTree = "<group>"; };
+		CC37016717B1F32700AD3EF4 /* FKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKAppDelegate.h; sourceTree = "<group>"; };
+		CC37016817B1F32700AD3EF4 /* FKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKAppDelegate.m; sourceTree = "<group>"; };
+		CC37017317B1F32700AD3EF4 /* FKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKViewController.h; sourceTree = "<group>"; };
+		CC37017417B1F32700AD3EF4 /* FKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKViewController.m; sourceTree = "<group>"; };
+		CC37017D17B1F43D00AD3EF4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CC37017F17B1F46400AD3EF4 /* crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crash.wav; sourceTree = "<group>"; };
+		CCBEECF817F68A8800F41BDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCBEECFB17F68A9700F41BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC37015217B1F32700AD3EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC37017E17B1F43D00AD3EF4 /* AudioToolbox.framework in Frameworks */,
+				CC37015917B1F32700AD3EF4 /* UIKit.framework in Frameworks */,
+				CC37015B17B1F32700AD3EF4 /* Foundation.framework in Frameworks */,
+				CC37015D17B1F32700AD3EF4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC37014C17B1F32700AD3EF4 = {
+			isa = PBXGroup;
+			children = (
+				CC37015E17B1F32700AD3EF4 /* SystemSoundTest */,
+				CC37015717B1F32700AD3EF4 /* Frameworks */,
+				CC37015617B1F32700AD3EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC37015617B1F32700AD3EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC37015517B1F32700AD3EF4 /* SystemSoundTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC37015717B1F32700AD3EF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC37017D17B1F43D00AD3EF4 /* AudioToolbox.framework */,
+				CC37015817B1F32700AD3EF4 /* UIKit.framework */,
+				CC37015A17B1F32700AD3EF4 /* Foundation.framework */,
+				CC37015C17B1F32700AD3EF4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC37015E17B1F32700AD3EF4 /* SystemSoundTest */ = {
+			isa = PBXGroup;
+			children = (
+				CC37016717B1F32700AD3EF4 /* FKAppDelegate.h */,
+				CC37016817B1F32700AD3EF4 /* FKAppDelegate.m */,
+				CC37017317B1F32700AD3EF4 /* FKViewController.h */,
+				CC37017417B1F32700AD3EF4 /* FKViewController.m */,
+				CCBEECFA17F68A9700F41BDA /* Main.storyboard */,
+				CCBEECF817F68A8800F41BDA /* Images.xcassets */,
+				CC37015F17B1F32700AD3EF4 /* Supporting Files */,
+			);
+			path = SystemSoundTest;
+			sourceTree = "<group>";
+		};
+		CC37015F17B1F32700AD3EF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC37017F17B1F46400AD3EF4 /* crash.wav */,
+				CC37016017B1F32700AD3EF4 /* SystemSoundTest-Info.plist */,
+				CC37016117B1F32700AD3EF4 /* InfoPlist.strings */,
+				CC37016417B1F32700AD3EF4 /* main.m */,
+				CC37016617B1F32700AD3EF4 /* SystemSoundTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC37015417B1F32700AD3EF4 /* SystemSoundTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC37017817B1F32700AD3EF4 /* Build configuration list for PBXNativeTarget "SystemSoundTest" */;
+			buildPhases = (
+				CC37015117B1F32700AD3EF4 /* Sources */,
+				CC37015217B1F32700AD3EF4 /* Frameworks */,
+				CC37015317B1F32700AD3EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemSoundTest;
+			productName = SystemSoundTest;
+			productReference = CC37015517B1F32700AD3EF4 /* SystemSoundTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC37014D17B1F32700AD3EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = crazyit.org;
+			};
+			buildConfigurationList = CC37015017B1F32700AD3EF4 /* Build configuration list for PBXProject "SystemSoundTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC37014C17B1F32700AD3EF4;
+			productRefGroup = CC37015617B1F32700AD3EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC37015417B1F32700AD3EF4 /* SystemSoundTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC37015317B1F32700AD3EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC37016317B1F32700AD3EF4 /* InfoPlist.strings in Resources */,
+				CCBEECF917F68A8800F41BDA /* Images.xcassets in Resources */,
+				CC37018017B1F46400AD3EF4 /* crash.wav in Resources */,
+				CCBEECFC17F68A9700F41BDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC37015117B1F32700AD3EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC37016517B1F32700AD3EF4 /* main.m in Sources */,
+				CC37016917B1F32700AD3EF4 /* FKAppDelegate.m in Sources */,
+				CC37017517B1F32700AD3EF4 /* FKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC37016117B1F32700AD3EF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC37016217B1F32700AD3EF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCBEECFA17F68A9700F41BDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBEECFB17F68A9700F41BDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC37017617B1F32700AD3EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC37017717B1F32700AD3EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC37017917B1F32700AD3EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemSoundTest/SystemSoundTest-Prefix.pch";
+				INFOPLIST_FILE = "SystemSoundTest/SystemSoundTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC37017A17B1F32700AD3EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemSoundTest/SystemSoundTest-Prefix.pch";
+				INFOPLIST_FILE = "SystemSoundTest/SystemSoundTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC37015017B1F32700AD3EF4 /* Build configuration list for PBXProject "SystemSoundTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC37017617B1F32700AD3EF4 /* Debug */,
+				CC37017717B1F32700AD3EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC37017817B1F32700AD3EF4 /* Build configuration list for PBXNativeTarget "SystemSoundTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC37017917B1F32700AD3EF4 /* Debug */,
+				CC37017A17B1F32700AD3EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC37014D17B1F32700AD3EF4 /* Project object */;
+}

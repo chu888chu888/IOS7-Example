@@ -1,0 +1,6 @@
+		// 获取两个时间之间的时间差
+		NSLog(@"date1与date3之间时间差%g秒" 
+			, [date1 timeIntervalSinceDate:date3]);
+		// 获取指定时间与现在的时间差
+		NSLog(@"date2与现在间时间差%g秒" 
+			, [date2 timeIntervalSinceNow]);

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="chartlet" tilewidth="64" tileheight="64">
+  <image source="chartlet.png" width="960" height="960"/>
+ </tileset>
+ <layer name="Background" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYBrFo3gUj+JRPKwwAKF0Au8=
+  </data>
+ </layer>
+ <layer name="FirstLayer" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzTVLhXEYxuHzEUxMMDHBxAQTE0zM2QRzNmdzNmdzNj+d1/AO/+FdxLMI54Fr+sFzJxKpS/ZtsMkW2+yw+8sfaaSTQSZZZAd9j30OOOSI46jlkEse+RRQGLNRRDEllFJGedBPOOWMcy64jFoFlVRRTQ21MRt11NNAI000B/2Ka2645Y77qLXQShvtdNAZs9FFNz300kd/0B945IlnXniN2gCDDDHMCKMxG2OMM8EkU0wH/Y13Pvjki++ozTDLHPMssBiz8ZdbYpkVVlljPckbqftf9wNUPCMU
+  </data>
+ </layer>
+ <objectgroup draworder="topdown" name="Objects" width="25" height="15">
+  <object name="player" x="71" y="716" width="51" height="53"/>
+ </objectgroup>
+</map>

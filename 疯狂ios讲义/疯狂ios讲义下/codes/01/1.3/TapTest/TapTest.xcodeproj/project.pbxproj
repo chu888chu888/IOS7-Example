@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA8905517984B3B0079A769 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA8905417984B3B0079A769 /* UIKit.framework */; };
+		CCA8905717984B3B0079A769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA8905617984B3B0079A769 /* Foundation.framework */; };
+		CCA8905917984B3B0079A769 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA8905817984B3B0079A769 /* CoreGraphics.framework */; };
+		CCA8905F17984B3B0079A769 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCA8905D17984B3B0079A769 /* InfoPlist.strings */; };
+		CCA8906117984B3B0079A769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA8906017984B3B0079A769 /* main.m */; };
+		CCA8906517984B3B0079A769 /* FKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA8906417984B3B0079A769 /* FKAppDelegate.m */; };
+		CCA8906E17984B3B0079A769 /* FKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA8906D17984B3B0079A769 /* FKViewController.m */; };
+		CCA8907817984BE60079A769 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA8907717984BE60079A769 /* QuartzCore.framework */; };
+		CCBEED3A17F6F0EF00F41BDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBEED3917F6F0EF00F41BDA /* Images.xcassets */; };
+		CCBEED3D17F6F10A00F41BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBEED3B17F6F10A00F41BDA /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCA8905117984B3B0079A769 /* TapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA8905417984B3B0079A769 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCA8905617984B3B0079A769 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCA8905817984B3B0079A769 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCA8905C17984B3B0079A769 /* TapTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapTest-Info.plist"; sourceTree = "<group>"; };
+		CCA8905E17984B3B0079A769 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCA8906017984B3B0079A769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCA8906217984B3B0079A769 /* TapTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapTest-Prefix.pch"; sourceTree = "<group>"; };
+		CCA8906317984B3B0079A769 /* FKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKAppDelegate.h; sourceTree = "<group>"; };
+		CCA8906417984B3B0079A769 /* FKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKAppDelegate.m; sourceTree = "<group>"; };
+		CCA8906C17984B3B0079A769 /* FKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKViewController.h; sourceTree = "<group>"; };
+		CCA8906D17984B3B0079A769 /* FKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKViewController.m; sourceTree = "<group>"; };
+		CCA8907717984BE60079A769 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CCBEED3917F6F0EF00F41BDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCBEED3C17F6F10A00F41BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA8904E17984B3B0079A769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA8907817984BE60079A769 /* QuartzCore.framework in Frameworks */,
+				CCA8905517984B3B0079A769 /* UIKit.framework in Frameworks */,
+				CCA8905717984B3B0079A769 /* Foundation.framework in Frameworks */,
+				CCA8905917984B3B0079A769 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA8904817984B3B0079A769 = {
+			isa = PBXGroup;
+			children = (
+				CCA8905A17984B3B0079A769 /* TapTest */,
+				CCA8905317984B3B0079A769 /* Frameworks */,
+				CCA8905217984B3B0079A769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA8905217984B3B0079A769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8905117984B3B0079A769 /* TapTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA8905317984B3B0079A769 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8907717984BE60079A769 /* QuartzCore.framework */,
+				CCA8905417984B3B0079A769 /* UIKit.framework */,
+				CCA8905617984B3B0079A769 /* Foundation.framework */,
+				CCA8905817984B3B0079A769 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA8905A17984B3B0079A769 /* TapTest */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8906317984B3B0079A769 /* FKAppDelegate.h */,
+				CCA8906417984B3B0079A769 /* FKAppDelegate.m */,
+				CCA8906C17984B3B0079A769 /* FKViewController.h */,
+				CCA8906D17984B3B0079A769 /* FKViewController.m */,
+				CCBEED3B17F6F10A00F41BDA /* Main.storyboard */,
+				CCBEED3917F6F0EF00F41BDA /* Images.xcassets */,
+				CCA8905B17984B3B0079A769 /* Supporting Files */,
+			);
+			path = TapTest;
+			sourceTree = "<group>";
+		};
+		CCA8905B17984B3B0079A769 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8905C17984B3B0079A769 /* TapTest-Info.plist */,
+				CCA8905D17984B3B0079A769 /* InfoPlist.strings */,
+				CCA8906017984B3B0079A769 /* main.m */,
+				CCA8906217984B3B0079A769 /* TapTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA8905017984B3B0079A769 /* TapTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA8907417984B3B0079A769 /* Build configuration list for PBXNativeTarget "TapTest" */;
+			buildPhases = (
+				CCA8904D17984B3B0079A769 /* Sources */,
+				CCA8904E17984B3B0079A769 /* Frameworks */,
+				CCA8904F17984B3B0079A769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapTest;
+			productName = TapTest;
+			productReference = CCA8905117984B3B0079A769 /* TapTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA8904917984B3B0079A769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = crazyit.org;
+			};
+			buildConfigurationList = CCA8904C17984B3B0079A769 /* Build configuration list for PBXProject "TapTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA8904817984B3B0079A769;
+			productRefGroup = CCA8905217984B3B0079A769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA8905017984B3B0079A769 /* TapTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA8904F17984B3B0079A769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBEED3A17F6F0EF00F41BDA /* Images.xcassets in Resources */,
+				CCA8905F17984B3B0079A769 /* InfoPlist.strings in Resources */,
+				CCBEED3D17F6F10A00F41BDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA8904D17984B3B0079A769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA8906117984B3B0079A769 /* main.m in Sources */,
+				CCA8906517984B3B0079A769 /* FKAppDelegate.m in Sources */,
+				CCA8906E17984B3B0079A769 /* FKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCA8905D17984B3B0079A769 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA8905E17984B3B0079A769 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCBEED3B17F6F10A00F41BDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCBEED3C17F6F10A00F41BDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA8907217984B3B0079A769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCA8907317984B3B0079A769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA8907517984B3B0079A769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapTest/TapTest-Prefix.pch";
+				INFOPLIST_FILE = "TapTest/TapTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCA8907617984B3B0079A769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapTest/TapTest-Prefix.pch";
+				INFOPLIST_FILE = "TapTest/TapTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA8904C17984B3B0079A769 /* Build configuration list for PBXProject "TapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA8907217984B3B0079A769 /* Debug */,
+				CCA8907317984B3B0079A769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA8907417984B3B0079A769 /* Build configuration list for PBXNativeTarget "TapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA8907517984B3B0079A769 /* Debug */,
+				CCA8907617984B3B0079A769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA8904917984B3B0079A769 /* Project object */;
+}

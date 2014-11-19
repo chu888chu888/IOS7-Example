@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="FKViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A3o-8f-6ek"/>
+                        <viewControllerLayoutGuide type="bottom" id="5j1-k0-Pwx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="目标网址：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SgN-Zr-mrv">
+                                <rect key="frame" x="20" y="20" width="165" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="eQE-gc-GVL"/>
+                                    <constraint firstAttribute="height" constant="37" id="lez-Cn-KG1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="www.crazyit.org" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7lC-TD-HaU">
+                                <rect key="frame" x="20" y="65" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="finishEdit:" destination="2" eventType="editingDidEndOnExit" id="daO-Ff-Hf1"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffv-13-wFU">
+                                <rect key="frame" x="227" y="20" width="73" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="3gr-WK-Zlf"/>
+                                </constraints>
+                                <state key="normal" title="测试">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testNetStatus:" destination="2" eventType="touchUpInside" id="6Mk-ao-C7O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92a-3G-SbC">
+                                <rect key="frame" x="20" y="103" width="114" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="VkZ-h5-JqY"/>
+                                    <constraint firstAttribute="width" constant="114" id="wDJ-ZT-doF"/>
+                                </constraints>
+                                <state key="normal" title="测试WIFI">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testWifi:" destination="2" eventType="touchUpInside" id="SHc-gq-m8f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjx-yc-UIo">
+                                <rect key="frame" x="189" y="103" width="111" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="kFH-US-qvt"/>
+                                </constraints>
+                                <state key="normal" title="测试3G/4G">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testInternet:" destination="2" eventType="touchUpInside" id="O20-EU-aEF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="92a-3G-SbC" firstAttribute="top" secondItem="7lC-TD-HaU" secondAttribute="bottom" constant="8" symbolic="YES" id="7Di-2B-NCP"/>
+                            <constraint firstItem="SgN-Zr-mrv" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="DVF-an-xEv"/>
+                            <constraint firstAttribute="trailing" secondItem="ffv-13-wFU" secondAttribute="trailing" constant="20" symbolic="YES" id="E8S-3Z-noX"/>
+                            <constraint firstItem="7lC-TD-HaU" firstAttribute="top" secondItem="ffv-13-wFU" secondAttribute="bottom" constant="8" symbolic="YES" id="Mx8-W1-AIP"/>
+                            <constraint firstItem="92a-3G-SbC" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="Ut0-iH-8QX"/>
+                            <constraint firstItem="7lC-TD-HaU" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="Z7E-rL-MMa"/>
+                            <constraint firstItem="pjx-yc-UIo" firstAttribute="bottom" secondItem="92a-3G-SbC" secondAttribute="bottom" id="buX-3i-HkG"/>
+                            <constraint firstAttribute="trailing" secondItem="pjx-yc-UIo" secondAttribute="trailing" constant="20" symbolic="YES" id="c4N-gB-hme"/>
+                            <constraint firstItem="ffv-13-wFU" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" id="f8J-51-WUM"/>
+                            <constraint firstItem="pjx-yc-UIo" firstAttribute="top" secondItem="7lC-TD-HaU" secondAttribute="bottom" constant="8" symbolic="YES" id="hC6-Xv-kNm"/>
+                            <constraint firstAttribute="trailing" secondItem="7lC-TD-HaU" secondAttribute="trailing" constant="20" symbolic="YES" id="l3p-bd-N6U"/>
+                            <constraint firstItem="7lC-TD-HaU" firstAttribute="top" secondItem="SgN-Zr-mrv" secondAttribute="bottom" constant="8" symbolic="YES" id="mo5-Nd-7qh"/>
+                            <constraint firstItem="SgN-Zr-mrv" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" id="qD6-NZ-yxN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="siteField" destination="7lC-TD-HaU" id="IuS-OY-fA3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="198" y="-99"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

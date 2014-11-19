@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4955421753BB1100BE5C8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4955411753BB1000BE5C8F /* UIKit.framework */; };
+		CC4955441753BB1100BE5C8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4955431753BB1100BE5C8F /* Foundation.framework */; };
+		CC4955461753BB1100BE5C8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4955451753BB1100BE5C8F /* CoreGraphics.framework */; };
+		CC49554C1753BB1100BE5C8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC49554A1753BB1100BE5C8F /* InfoPlist.strings */; };
+		CC49554E1753BB1100BE5C8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC49554D1753BB1100BE5C8F /* main.m */; };
+		CC4955521753BB1100BE5C8F /* FKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4955511753BB1100BE5C8F /* FKAppDelegate.m */; };
+		CCEAF6C517F02D67006D5209 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEAF6C417F02D67006D5209 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC49553E1753BB1000BE5C8F /* CodeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4955411753BB1000BE5C8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC4955431753BB1100BE5C8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC4955451753BB1100BE5C8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC4955491753BB1100BE5C8F /* CodeUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeUI-Info.plist"; sourceTree = "<group>"; };
+		CC49554B1753BB1100BE5C8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC49554D1753BB1100BE5C8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC49554F1753BB1100BE5C8F /* CodeUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodeUI-Prefix.pch"; sourceTree = "<group>"; };
+		CC4955501753BB1100BE5C8F /* FKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKAppDelegate.h; sourceTree = "<group>"; };
+		CC4955511753BB1100BE5C8F /* FKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKAppDelegate.m; sourceTree = "<group>"; };
+		CCEAF6C417F02D67006D5209 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC49553B1753BB1000BE5C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4955421753BB1100BE5C8F /* UIKit.framework in Frameworks */,
+				CC4955441753BB1100BE5C8F /* Foundation.framework in Frameworks */,
+				CC4955461753BB1100BE5C8F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4955351753BB1000BE5C8F = {
+			isa = PBXGroup;
+			children = (
+				CC4955471753BB1100BE5C8F /* CodeUI */,
+				CC4955401753BB1000BE5C8F /* Frameworks */,
+				CC49553F1753BB1000BE5C8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC49553F1753BB1000BE5C8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC49553E1753BB1000BE5C8F /* CodeUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4955401753BB1000BE5C8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4955411753BB1000BE5C8F /* UIKit.framework */,
+				CC4955431753BB1100BE5C8F /* Foundation.framework */,
+				CC4955451753BB1100BE5C8F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC4955471753BB1100BE5C8F /* CodeUI */ = {
+			isa = PBXGroup;
+			children = (
+				CC4955501753BB1100BE5C8F /* FKAppDelegate.h */,
+				CC4955511753BB1100BE5C8F /* FKAppDelegate.m */,
+				CCEAF6C417F02D67006D5209 /* Images.xcassets */,
+				CC4955481753BB1100BE5C8F /* Supporting Files */,
+			);
+			path = CodeUI;
+			sourceTree = "<group>";
+		};
+		CC4955481753BB1100BE5C8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4955491753BB1100BE5C8F /* CodeUI-Info.plist */,
+				CC49554A1753BB1100BE5C8F /* InfoPlist.strings */,
+				CC49554D1753BB1100BE5C8F /* main.m */,
+				CC49554F1753BB1100BE5C8F /* CodeUI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC49553D1753BB1000BE5C8F /* CodeUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC49555B1753BB1100BE5C8F /* Build configuration list for PBXNativeTarget "CodeUI" */;
+			buildPhases = (
+				CC49553A1753BB1000BE5C8F /* Sources */,
+				CC49553B1753BB1000BE5C8F /* Frameworks */,
+				CC49553C1753BB1000BE5C8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeUI;
+			productName = CodeUI;
+			productReference = CC49553E1753BB1000BE5C8F /* CodeUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4955361753BB1000BE5C8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = crazyit.org;
+			};
+			buildConfigurationList = CC4955391753BB1000BE5C8F /* Build configuration list for PBXProject "CodeUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC4955351753BB1000BE5C8F;
+			productRefGroup = CC49553F1753BB1000BE5C8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC49553D1753BB1000BE5C8F /* CodeUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC49553C1753BB1000BE5C8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC49554C1753BB1100BE5C8F /* InfoPlist.strings in Resources */,
+				CCEAF6C517F02D67006D5209 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC49553A1753BB1000BE5C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC49554E1753BB1100BE5C8F /* main.m in Sources */,
+				CC4955521753BB1100BE5C8F /* FKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC49554A1753BB1100BE5C8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC49554B1753BB1100BE5C8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4955591753BB1100BE5C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC49555A1753BB1100BE5C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC49555C1753BB1100BE5C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeUI/CodeUI-Prefix.pch";
+				INFOPLIST_FILE = "CodeUI/CodeUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC49555D1753BB1100BE5C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeUI/CodeUI-Prefix.pch";
+				INFOPLIST_FILE = "CodeUI/CodeUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4955391753BB1000BE5C8F /* Build configuration list for PBXProject "CodeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4955591753BB1100BE5C8F /* Debug */,
+				CC49555A1753BB1100BE5C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC49555B1753BB1100BE5C8F /* Build configuration list for PBXNativeTarget "CodeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC49555C1753BB1100BE5C8F /* Debug */,
+				CC49555D1753BB1100BE5C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4955361753BB1000BE5C8F /* Project object */;
+}

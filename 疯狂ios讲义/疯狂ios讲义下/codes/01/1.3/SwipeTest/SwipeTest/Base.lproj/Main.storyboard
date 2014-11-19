@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="kOY-G7-cfc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s48-PH-rY3">
+            <objects>
+                <viewController id="kOY-G7-cfc" customClass="FKViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V8d-Pz-4ZQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="PLr-72-SIl"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="D6K-Bx-yHb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zvz-mK-2zd">
+                                <rect key="frame" x="20" y="98" width="280" height="291"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="NDe-qC-uDB">
+                                <rect key="frame" x="20" y="20" width="280" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="6lp-XN-dtF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.37254901959999998" blue="0.15686274510000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NDe-qC-uDB" firstAttribute="top" secondItem="D6K-Bx-yHb" secondAttribute="top" constant="20" symbolic="YES" id="KLr-aT-SFO"/>
+                            <constraint firstItem="Zvz-mK-2zd" firstAttribute="leading" secondItem="D6K-Bx-yHb" secondAttribute="leading" constant="20" symbolic="YES" id="McN-1l-D9l"/>
+                            <constraint firstAttribute="trailing" secondItem="Zvz-mK-2zd" secondAttribute="trailing" constant="20" symbolic="YES" id="Y1T-PP-d4O"/>
+                            <constraint firstAttribute="bottom" secondItem="Zvz-mK-2zd" secondAttribute="bottom" constant="179" id="dFH-kI-Fwr"/>
+                            <constraint firstItem="Zvz-mK-2zd" firstAttribute="top" secondItem="D6K-Bx-yHb" secondAttribute="top" constant="98" id="gBd-N0-gc5"/>
+                            <constraint firstAttribute="trailing" secondItem="NDe-qC-uDB" secondAttribute="trailing" constant="20" symbolic="YES" id="jrR-mt-hPx"/>
+                            <constraint firstItem="NDe-qC-uDB" firstAttribute="leading" secondItem="D6K-Bx-yHb" secondAttribute="leading" constant="20" symbolic="YES" id="vkN-so-fQj"/>
+                        </constraints>
+                        <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                        <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    </view>
+                    <connections>
+                        <outlet property="gv" destination="Zvz-mK-2zd" id="8Ss-ms-7JF"/>
+                        <outlet property="label" destination="NDe-qC-uDB" id="Xh2-JI-Awz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Moq-BZ-P3f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121" y="-124"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

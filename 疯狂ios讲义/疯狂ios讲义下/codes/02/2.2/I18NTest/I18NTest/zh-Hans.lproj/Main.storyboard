@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="FKViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jp3-EV-o7K"/>
+                        <viewControllerLayoutGuide type="bottom" id="wxH-Eb-Ypy"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="OdM-Ei-TmM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6EH-EN-Kcs">
+                                <rect key="frame" x="20" y="214" width="280" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="yRe-9c-Tgo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npk-AD-sLe">
+                                <rect key="frame" x="20" y="268" width="280" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SLW-9P-FVb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQU-On-XSP">
+                                <rect key="frame" x="20" y="20" width="280" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="mjL-ks-OS0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="npk-AD-sLe" firstAttribute="leading" secondItem="OdM-Ei-TmM" secondAttribute="leading" constant="20" symbolic="YES" id="3pV-uU-pxZ"/>
+                            <constraint firstItem="pQU-On-XSP" firstAttribute="top" secondItem="OdM-Ei-TmM" secondAttribute="top" constant="20" symbolic="YES" id="7Js-zT-GGZ"/>
+                            <constraint firstAttribute="trailing" secondItem="pQU-On-XSP" secondAttribute="trailing" constant="20" symbolic="YES" id="SPC-Kq-3Kt"/>
+                            <constraint firstItem="pQU-On-XSP" firstAttribute="leading" secondItem="OdM-Ei-TmM" secondAttribute="leading" constant="20" symbolic="YES" id="Ubv-xr-ZvH"/>
+                            <constraint firstAttribute="trailing" secondItem="6EH-EN-Kcs" secondAttribute="trailing" constant="20" symbolic="YES" id="XMr-2Z-9ZQ"/>
+                            <constraint firstItem="6EH-EN-Kcs" firstAttribute="leading" secondItem="OdM-Ei-TmM" secondAttribute="leading" constant="20" symbolic="YES" id="fB2-68-GoD"/>
+                            <constraint firstItem="npk-AD-sLe" firstAttribute="top" secondItem="6EH-EN-Kcs" secondAttribute="bottom" constant="8" symbolic="YES" id="lKQ-vf-ZWB"/>
+                            <constraint firstAttribute="trailing" secondItem="npk-AD-sLe" secondAttribute="trailing" constant="20" symbolic="YES" id="qGt-23-4zh"/>
+                            <constraint firstItem="6EH-EN-Kcs" firstAttribute="top" secondItem="pQU-On-XSP" secondAttribute="bottom" constant="8" symbolic="YES" id="tQS-Je-cW4"/>
+                        </constraints>
+                        <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                        <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="iv" destination="pQU-On-XSP" id="oGX-Ng-gQU"/>
+                        <outlet property="label2" destination="npk-AD-sLe" id="iEC-Ds-5s7"/>
+                        <outlet property="localeLabel" destination="6EH-EN-Kcs" id="uUh-M5-MQH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
